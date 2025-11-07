@@ -1,0 +1,54 @@
+@use "sass:map";
+$primary: blue !default;
+$secondary: green !default;
+$error: red !default;
+$info: orange !default;
+
+// color pallate
+
+$colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "error": $error,
+
+  "info": $info,
+  "Blue": blue,
+  "Green": green,
+
+  "Yellow": yellow,
+  "Orange": orange,
+  "Pupple": purple,
+  "Grey": gray,
+  "Black": #000,
+  "White": #fff,
+  "Brown": brown,
+);
+
+// @debug map.get($colors, "Pupple");
+
+// @debug map.keys($colors);
+// @debug map.values($colors);
+// @debug map.remove($colors, White);
+// @debug map.merge(
+//   $colors,
+//   (
+//     "Brown": brown,
+//   )
+// );
+
+$base-padding: 0.75rem !default;
+$base-margin: 1.76rem !default;
+$base-border-thickness: 1px !default;
+$base-border-radius: 20px !default;
+$base-text-color: white !default;
+$button-color: blueviolet !default;
+$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1) !default;
+$base-font-size: 1rem !default;
+$font-size-sm: $base-font-size * 0.75 !default;
+$font-size-lg: $base-font-size * 1.5 !default;
+$font-size-xl: $base-font-size * 2 !default;
+$font-size-xxl: $base-font-size * 3 !default;
+$base-max-width: 40vw !default;
+$base-max-height: 60vh !default;
+$base-left: 20vw !default;
+$base-right: 20vw !default;

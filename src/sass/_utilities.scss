@@ -1,0 +1,219 @@
+@use "sass:math";
+@use "sass:map";
+@use "variables";
+$utilites: (
+  "padding": (
+    "prefix": "p",
+    "values": (
+      "0": 0,
+      "xs": math.div(variables.$base-padding, 4),
+      "sm": math.div(variables.$base-padding, 2),
+      "lg": variables.$base-padding * 2,
+      "xl": variables.$base-padding * 4,
+      "xxl": variables.$base-padding * 6,
+    ),
+  ),
+  "padding-left": (
+    "prefix": "pl",
+    "values": (
+      "0": 0,
+      "xs": math.div(variables.$base-padding, 4),
+      "sm": math.div(variables.$base-padding, 2),
+      "lg": variables.$base-padding * 2,
+      "xl": variables.$base-padding * 4,
+      "xxl": variables.$base-padding * 6,
+    ),
+  ),
+  "padding-right": (
+    "prefix": "pr",
+    "values": (
+      "0": 0,
+      "xs": math.div(variables.$base-padding, 4),
+      "sm": math.div(variables.$base-padding, 2),
+      "lg": variables.$base-padding * 2,
+      "xl": variables.$base-padding * 4,
+      "xxl": variables.$base-padding * 6,
+    ),
+  ),
+  "padding-top": (
+    "prefix": "pt",
+    "values": (
+      "0": 0,
+      "xs": math.div(variables.$base-padding, 4),
+      "sm": math.div(variables.$base-padding, 2),
+      "lg": variables.$base-padding * 2,
+      "xl": variables.$base-padding * 4,
+      "xxl": variables.$base-padding * 6,
+    ),
+  ),
+  "padding-bottom": (
+    "prefix": "pb",
+    "values": (
+      "0": 0,
+      "xs": math.div(variables.$base-padding, 4),
+      "sm": math.div(variables.$base-padding, 2),
+      "lg": variables.$base-padding * 2,
+      "xl": variables.$base-padding * 4,
+      "xxl": variables.$base-padding * 6,
+    ),
+  ),
+  "margin": (
+    "prefix": "m",
+    "values": (
+      "0": 0,
+      "xs": math.div(variables.$base-margin, 4),
+      "sm": math.div(variables.$base-margin, 2),
+      "lg": variables.$base-margin * 2,
+      "xl": variables.$base-margin * 4,
+      "xxl": variables.$base-margin * 6,
+    ),
+  ),
+  "margin-top": (
+    "prefix": "mt",
+    "values": (
+      "0": 0,
+      "xs": math.div(variables.$base-margin, 4),
+      "sm": math.div(variables.$base-margin, 2),
+      "lg": variables.$base-margin * 2,
+      "xl": variables.$base-margin * 4,
+      "xxl": variables.$base-margin * 6,
+    ),
+  ),
+  "margin-bottom": (
+    "prefix": "mb",
+    "values": (
+      "0": 0,
+      "xs": math.div(variables.$base-margin, 4),
+      "sm": math.div(variables.$base-margin, 2),
+      "lg": variables.$base-margin * 2,
+      "xl": variables.$base-margin * 4,
+      "xxl": variables.$base-margin * 6,
+    ),
+  ),
+  "margin-left": (
+    "prefix": "ml",
+    "values": (
+      "0": 0,
+      "xs": math.div(variables.$base-margin, 4),
+      "sm": math.div(variables.$base-margin, 2),
+      "lg": variables.$base-margin * 2,
+      "xl": variables.$base-margin * 4,
+      "xxl": variables.$base-margin * 6,
+    ),
+  ),
+  "margin-right": (
+    "prefix": "mr",
+    "values": (
+      "0": 0,
+      "xs": math.div(variables.$base-margin, 4),
+      "sm": math.div(variables.$base-margin, 2),
+      "lg": variables.$base-margin * 2,
+      "xl": variables.$base-margin * 4,
+      "xxl": variables.$base-margin * 6,
+    ),
+  ),
+  "opacity": (
+    "prefix": "o",
+    "values": (
+      "0": 0,
+      "10": 0.1,
+      "20": 0.2,
+      "30": 0.3,
+      "40": 0.4,
+      "50": 0.5,
+      "60": 0.6,
+      "80": 0.8,
+      "70": 0.7,
+      "90": 0.9,
+      "100": 1,
+    ),
+  ),
+  "display": (
+    "prefix": "d",
+    "values": (
+      "f": flex,
+      "b": block,
+      "i-b": inline-block,
+      "g": grid,
+      "i": inline,
+      "ih": inherit,
+    ),
+  ),
+  "font-size": (
+    "prefix": "font",
+    "values": (
+      "xs": math.div(variables.$base-font-size, 4),
+      "sm": math.div(variables.$base-font-size, 2),
+      "lg": variables.$base-font-size * 2,
+      "xl": variables.$base-font-size * 4,
+      "xxl": variables.$base-font-size * 6,
+    ),
+  ),
+  "cursor": (
+    "prefix": "cursor",
+    "values": (
+      "p": pointer,
+      "d": default,
+      "cp": copy,
+      "rz": resize,
+    ),
+  ),
+  "height": (
+    "prefix": "h",
+    "values": (
+      "10": 10vh,
+      "20": 20vh,
+      "30": 40vh,
+      "50": 50vh,
+      "40": 40vh,
+      "60": 60vh,
+      "70": 70vh,
+      "90": 90vh,
+      "80": 80vh,
+      "100": 100vh,
+    ),
+  ),
+  "width": (
+    "prefix": "w",
+    "values": (
+      "10": 10vw,
+      "20": 20vw,
+      "30": 40vw,
+      "50": 50vw,
+      "40": 40vw,
+      "60": 60vw,
+      "70": 70vw,
+      "90": 90vw,
+      "80": 80vw,
+      "100": 100vw,
+    ),
+  ),
+  "text-align": (
+    "prefix": "align",
+    "values": (
+      "center": center,
+      "end": end,
+      "right": right,
+      "left": left,
+      "justify": justify,
+    ),
+  ),
+);
+.test {
+  text-align: justify;
+}
+@each $property, $map in $utilites {
+  $prefix: map.get($map, $key: "prefix");
+  $value: map.get($map, "values");
+  @each $k, $v in $value {
+    @if ($prefix == "default") {
+      .#{$prefix} {
+        #{$property}: $v;
+      }
+    } @else {
+      .#{$prefix}-#{$k} {
+        #{$property}: $v;
+      }
+    }
+  }
+}

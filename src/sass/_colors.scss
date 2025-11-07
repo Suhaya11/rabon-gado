@@ -1,0 +1,64 @@
+@use "sass:color";
+@use "variables";
+@each $key, $val in variables.$colors {
+  .text-#{$key} {
+    color: $val;
+  }
+  .text-hover-#{$key} {
+    &:hover {
+      color: $val;
+    }
+  }
+  .bg-#{$key} {
+    background-color: $val;
+  }
+  .bg-hover-#{$key} {
+    &:hover {
+      background-color: $val;
+    }
+  }
+  @if ($key != "Black" and $key != "White") {
+    @for $i from 1 through 9 {
+      .text-#{$key}-light-#{$i} {
+        color: color.mix($color1: white, $color2: $val, $weight: $i * 10%);
+      }
+      .bg-#{$key}-light-#{$i} {
+        background-color: color.mix(
+          $color1: white,
+          $color2: $val,
+          $weight: $i * 10%
+        );
+      }
+      .bg-hover-#{$key}-light-#{$i} {
+        &:hover {
+          background-color: color.mix(white, $val, $i * 10%);
+        }
+      }
+      .text-hover-#{$key}-light-#{$i} {
+        &:hover {
+          color: color.mix(white, $val, $i * 10%);
+        }
+      }
+      .text-#{$key}-dark-#{$i} {
+        color: color.mix($color1: black, $color2: $val, $weight: $i * 10%);
+      }
+      .bg-hover-#{$key}-dark-#{$i} {
+        &:hover {
+          background-color: color.mix(black, $val, $i * 10%);
+        }
+      }
+      .text-hover-#{$key}-dark-#{$i} {
+        &:hover {
+          color: color.mix(black, $val, $i * 10%);
+        }
+      }
+      .bg-#{$key}-dark-#{$i} {
+        background-color: color.mix(
+          $color1: black,
+          $color2: $val,
+          $weight: $i * 10%
+        );
+      }
+    }
+  }
+}

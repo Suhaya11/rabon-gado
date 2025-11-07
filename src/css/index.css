@@ -1,0 +1,5967 @@
+a {
+  text-decoration: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  cursor: default;
+}
+
+a {
+  cursor: pointer;
+}
+
+.text-primary {
+  color: blue;
+}
+
+.text-hover-primary:hover {
+  color: blue;
+}
+
+.bg-primary {
+  background-color: blue;
+}
+
+.bg-hover-primary:hover {
+  background-color: blue;
+}
+
+.text-primary-light-1 {
+  color: rgb(25.5, 25.5, 255);
+}
+
+.bg-primary-light-1 {
+  background-color: rgb(25.5, 25.5, 255);
+}
+
+.bg-hover-primary-light-1:hover {
+  background-color: rgb(25.5, 25.5, 255);
+}
+
+.text-hover-primary-light-1:hover {
+  color: rgb(25.5, 25.5, 255);
+}
+
+.text-primary-dark-1 {
+  color: rgb(0, 0, 229.5);
+}
+
+.bg-hover-primary-dark-1:hover {
+  background-color: rgb(0, 0, 229.5);
+}
+
+.text-hover-primary-dark-1:hover {
+  color: rgb(0, 0, 229.5);
+}
+
+.bg-primary-dark-1 {
+  background-color: rgb(0, 0, 229.5);
+}
+
+.text-primary-light-2 {
+  color: #3333ff;
+}
+
+.bg-primary-light-2 {
+  background-color: #3333ff;
+}
+
+.bg-hover-primary-light-2:hover {
+  background-color: #3333ff;
+}
+
+.text-hover-primary-light-2:hover {
+  color: #3333ff;
+}
+
+.text-primary-dark-2 {
+  color: #0000cc;
+}
+
+.bg-hover-primary-dark-2:hover {
+  background-color: #0000cc;
+}
+
+.text-hover-primary-dark-2:hover {
+  color: #0000cc;
+}
+
+.bg-primary-dark-2 {
+  background-color: #0000cc;
+}
+
+.text-primary-light-3 {
+  color: rgb(76.5, 76.5, 255);
+}
+
+.bg-primary-light-3 {
+  background-color: rgb(76.5, 76.5, 255);
+}
+
+.bg-hover-primary-light-3:hover {
+  background-color: rgb(76.5, 76.5, 255);
+}
+
+.text-hover-primary-light-3:hover {
+  color: rgb(76.5, 76.5, 255);
+}
+
+.text-primary-dark-3 {
+  color: rgb(0, 0, 178.5);
+}
+
+.bg-hover-primary-dark-3:hover {
+  background-color: rgb(0, 0, 178.5);
+}
+
+.text-hover-primary-dark-3:hover {
+  color: rgb(0, 0, 178.5);
+}
+
+.bg-primary-dark-3 {
+  background-color: rgb(0, 0, 178.5);
+}
+
+.text-primary-light-4 {
+  color: #6666ff;
+}
+
+.bg-primary-light-4 {
+  background-color: #6666ff;
+}
+
+.bg-hover-primary-light-4:hover {
+  background-color: #6666ff;
+}
+
+.text-hover-primary-light-4:hover {
+  color: #6666ff;
+}
+
+.text-primary-dark-4 {
+  color: #000099;
+}
+
+.bg-hover-primary-dark-4:hover {
+  background-color: #000099;
+}
+
+.text-hover-primary-dark-4:hover {
+  color: #000099;
+}
+
+.bg-primary-dark-4 {
+  background-color: #000099;
+}
+
+.text-primary-light-5 {
+  color: rgb(127.5, 127.5, 255);
+}
+
+.bg-primary-light-5 {
+  background-color: rgb(127.5, 127.5, 255);
+}
+
+.bg-hover-primary-light-5:hover {
+  background-color: rgb(127.5, 127.5, 255);
+}
+
+.text-hover-primary-light-5:hover {
+  color: rgb(127.5, 127.5, 255);
+}
+
+.text-primary-dark-5 {
+  color: rgb(0, 0, 127.5);
+}
+
+.bg-hover-primary-dark-5:hover {
+  background-color: rgb(0, 0, 127.5);
+}
+
+.text-hover-primary-dark-5:hover {
+  color: rgb(0, 0, 127.5);
+}
+
+.bg-primary-dark-5 {
+  background-color: rgb(0, 0, 127.5);
+}
+
+.text-primary-light-6 {
+  color: #9999ff;
+}
+
+.bg-primary-light-6 {
+  background-color: #9999ff;
+}
+
+.bg-hover-primary-light-6:hover {
+  background-color: #9999ff;
+}
+
+.text-hover-primary-light-6:hover {
+  color: #9999ff;
+}
+
+.text-primary-dark-6 {
+  color: #000066;
+}
+
+.bg-hover-primary-dark-6:hover {
+  background-color: #000066;
+}
+
+.text-hover-primary-dark-6:hover {
+  color: #000066;
+}
+
+.bg-primary-dark-6 {
+  background-color: #000066;
+}
+
+.text-primary-light-7 {
+  color: rgb(178.5, 178.5, 255);
+}
+
+.bg-primary-light-7 {
+  background-color: rgb(178.5, 178.5, 255);
+}
+
+.bg-hover-primary-light-7:hover {
+  background-color: rgb(178.5, 178.5, 255);
+}
+
+.text-hover-primary-light-7:hover {
+  color: rgb(178.5, 178.5, 255);
+}
+
+.text-primary-dark-7 {
+  color: rgb(0, 0, 76.5);
+}
+
+.bg-hover-primary-dark-7:hover {
+  background-color: rgb(0, 0, 76.5);
+}
+
+.text-hover-primary-dark-7:hover {
+  color: rgb(0, 0, 76.5);
+}
+
+.bg-primary-dark-7 {
+  background-color: rgb(0, 0, 76.5);
+}
+
+.text-primary-light-8 {
+  color: #ccccff;
+}
+
+.bg-primary-light-8 {
+  background-color: #ccccff;
+}
+
+.bg-hover-primary-light-8:hover {
+  background-color: #ccccff;
+}
+
+.text-hover-primary-light-8:hover {
+  color: #ccccff;
+}
+
+.text-primary-dark-8 {
+  color: #000033;
+}
+
+.bg-hover-primary-dark-8:hover {
+  background-color: #000033;
+}
+
+.text-hover-primary-dark-8:hover {
+  color: #000033;
+}
+
+.bg-primary-dark-8 {
+  background-color: #000033;
+}
+
+.text-primary-light-9 {
+  color: rgb(229.5, 229.5, 255);
+}
+
+.bg-primary-light-9 {
+  background-color: rgb(229.5, 229.5, 255);
+}
+
+.bg-hover-primary-light-9:hover {
+  background-color: rgb(229.5, 229.5, 255);
+}
+
+.text-hover-primary-light-9:hover {
+  color: rgb(229.5, 229.5, 255);
+}
+
+.text-primary-dark-9 {
+  color: rgb(0, 0, 25.5);
+}
+
+.bg-hover-primary-dark-9:hover {
+  background-color: rgb(0, 0, 25.5);
+}
+
+.text-hover-primary-dark-9:hover {
+  color: rgb(0, 0, 25.5);
+}
+
+.bg-primary-dark-9 {
+  background-color: rgb(0, 0, 25.5);
+}
+
+.text-secondary {
+  color: green;
+}
+
+.text-hover-secondary:hover {
+  color: green;
+}
+
+.bg-secondary {
+  background-color: green;
+}
+
+.bg-hover-secondary:hover {
+  background-color: green;
+}
+
+.text-secondary-light-1 {
+  color: rgb(25.5, 140.7, 25.5);
+}
+
+.bg-secondary-light-1 {
+  background-color: rgb(25.5, 140.7, 25.5);
+}
+
+.bg-hover-secondary-light-1:hover {
+  background-color: rgb(25.5, 140.7, 25.5);
+}
+
+.text-hover-secondary-light-1:hover {
+  color: rgb(25.5, 140.7, 25.5);
+}
+
+.text-secondary-dark-1 {
+  color: rgb(0, 115.2, 0);
+}
+
+.bg-hover-secondary-dark-1:hover {
+  background-color: rgb(0, 115.2, 0);
+}
+
+.text-hover-secondary-dark-1:hover {
+  color: rgb(0, 115.2, 0);
+}
+
+.bg-secondary-dark-1 {
+  background-color: rgb(0, 115.2, 0);
+}
+
+.text-secondary-light-2 {
+  color: rgb(51, 153.4, 51);
+}
+
+.bg-secondary-light-2 {
+  background-color: rgb(51, 153.4, 51);
+}
+
+.bg-hover-secondary-light-2:hover {
+  background-color: rgb(51, 153.4, 51);
+}
+
+.text-hover-secondary-light-2:hover {
+  color: rgb(51, 153.4, 51);
+}
+
+.text-secondary-dark-2 {
+  color: rgb(0, 102.4, 0);
+}
+
+.bg-hover-secondary-dark-2:hover {
+  background-color: rgb(0, 102.4, 0);
+}
+
+.text-hover-secondary-dark-2:hover {
+  color: rgb(0, 102.4, 0);
+}
+
+.bg-secondary-dark-2 {
+  background-color: rgb(0, 102.4, 0);
+}
+
+.text-secondary-light-3 {
+  color: rgb(76.5, 166.1, 76.5);
+}
+
+.bg-secondary-light-3 {
+  background-color: rgb(76.5, 166.1, 76.5);
+}
+
+.bg-hover-secondary-light-3:hover {
+  background-color: rgb(76.5, 166.1, 76.5);
+}
+
+.text-hover-secondary-light-3:hover {
+  color: rgb(76.5, 166.1, 76.5);
+}
+
+.text-secondary-dark-3 {
+  color: rgb(0, 89.6, 0);
+}
+
+.bg-hover-secondary-dark-3:hover {
+  background-color: rgb(0, 89.6, 0);
+}
+
+.text-hover-secondary-dark-3:hover {
+  color: rgb(0, 89.6, 0);
+}
+
+.bg-secondary-dark-3 {
+  background-color: rgb(0, 89.6, 0);
+}
+
+.text-secondary-light-4 {
+  color: rgb(102, 178.8, 102);
+}
+
+.bg-secondary-light-4 {
+  background-color: rgb(102, 178.8, 102);
+}
+
+.bg-hover-secondary-light-4:hover {
+  background-color: rgb(102, 178.8, 102);
+}
+
+.text-hover-secondary-light-4:hover {
+  color: rgb(102, 178.8, 102);
+}
+
+.text-secondary-dark-4 {
+  color: rgb(0, 76.8, 0);
+}
+
+.bg-hover-secondary-dark-4:hover {
+  background-color: rgb(0, 76.8, 0);
+}
+
+.text-hover-secondary-dark-4:hover {
+  color: rgb(0, 76.8, 0);
+}
+
+.bg-secondary-dark-4 {
+  background-color: rgb(0, 76.8, 0);
+}
+
+.text-secondary-light-5 {
+  color: rgb(127.5, 191.5, 127.5);
+}
+
+.bg-secondary-light-5 {
+  background-color: rgb(127.5, 191.5, 127.5);
+}
+
+.bg-hover-secondary-light-5:hover {
+  background-color: rgb(127.5, 191.5, 127.5);
+}
+
+.text-hover-secondary-light-5:hover {
+  color: rgb(127.5, 191.5, 127.5);
+}
+
+.text-secondary-dark-5 {
+  color: #004000;
+}
+
+.bg-hover-secondary-dark-5:hover {
+  background-color: #004000;
+}
+
+.text-hover-secondary-dark-5:hover {
+  color: #004000;
+}
+
+.bg-secondary-dark-5 {
+  background-color: #004000;
+}
+
+.text-secondary-light-6 {
+  color: rgb(153, 204.2, 153);
+}
+
+.bg-secondary-light-6 {
+  background-color: rgb(153, 204.2, 153);
+}
+
+.bg-hover-secondary-light-6:hover {
+  background-color: rgb(153, 204.2, 153);
+}
+
+.text-hover-secondary-light-6:hover {
+  color: rgb(153, 204.2, 153);
+}
+
+.text-secondary-dark-6 {
+  color: rgb(0, 51.2, 0);
+}
+
+.bg-hover-secondary-dark-6:hover {
+  background-color: rgb(0, 51.2, 0);
+}
+
+.text-hover-secondary-dark-6:hover {
+  color: rgb(0, 51.2, 0);
+}
+
+.bg-secondary-dark-6 {
+  background-color: rgb(0, 51.2, 0);
+}
+
+.text-secondary-light-7 {
+  color: rgb(178.5, 216.9, 178.5);
+}
+
+.bg-secondary-light-7 {
+  background-color: rgb(178.5, 216.9, 178.5);
+}
+
+.bg-hover-secondary-light-7:hover {
+  background-color: rgb(178.5, 216.9, 178.5);
+}
+
+.text-hover-secondary-light-7:hover {
+  color: rgb(178.5, 216.9, 178.5);
+}
+
+.text-secondary-dark-7 {
+  color: rgb(0, 38.4, 0);
+}
+
+.bg-hover-secondary-dark-7:hover {
+  background-color: rgb(0, 38.4, 0);
+}
+
+.text-hover-secondary-dark-7:hover {
+  color: rgb(0, 38.4, 0);
+}
+
+.bg-secondary-dark-7 {
+  background-color: rgb(0, 38.4, 0);
+}
+
+.text-secondary-light-8 {
+  color: rgb(204, 229.6, 204);
+}
+
+.bg-secondary-light-8 {
+  background-color: rgb(204, 229.6, 204);
+}
+
+.bg-hover-secondary-light-8:hover {
+  background-color: rgb(204, 229.6, 204);
+}
+
+.text-hover-secondary-light-8:hover {
+  color: rgb(204, 229.6, 204);
+}
+
+.text-secondary-dark-8 {
+  color: rgb(0, 25.6, 0);
+}
+
+.bg-hover-secondary-dark-8:hover {
+  background-color: rgb(0, 25.6, 0);
+}
+
+.text-hover-secondary-dark-8:hover {
+  color: rgb(0, 25.6, 0);
+}
+
+.bg-secondary-dark-8 {
+  background-color: rgb(0, 25.6, 0);
+}
+
+.text-secondary-light-9 {
+  color: rgb(229.5, 242.3, 229.5);
+}
+
+.bg-secondary-light-9 {
+  background-color: rgb(229.5, 242.3, 229.5);
+}
+
+.bg-hover-secondary-light-9:hover {
+  background-color: rgb(229.5, 242.3, 229.5);
+}
+
+.text-hover-secondary-light-9:hover {
+  color: rgb(229.5, 242.3, 229.5);
+}
+
+.text-secondary-dark-9 {
+  color: rgb(0, 12.8, 0);
+}
+
+.bg-hover-secondary-dark-9:hover {
+  background-color: rgb(0, 12.8, 0);
+}
+
+.text-hover-secondary-dark-9:hover {
+  color: rgb(0, 12.8, 0);
+}
+
+.bg-secondary-dark-9 {
+  background-color: rgb(0, 12.8, 0);
+}
+
+.text-error {
+  color: red;
+}
+
+.text-hover-error:hover {
+  color: red;
+}
+
+.bg-error {
+  background-color: red;
+}
+
+.bg-hover-error:hover {
+  background-color: red;
+}
+
+.text-error-light-1 {
+  color: rgb(255, 25.5, 25.5);
+}
+
+.bg-error-light-1 {
+  background-color: rgb(255, 25.5, 25.5);
+}
+
+.bg-hover-error-light-1:hover {
+  background-color: rgb(255, 25.5, 25.5);
+}
+
+.text-hover-error-light-1:hover {
+  color: rgb(255, 25.5, 25.5);
+}
+
+.text-error-dark-1 {
+  color: rgb(229.5, 0, 0);
+}
+
+.bg-hover-error-dark-1:hover {
+  background-color: rgb(229.5, 0, 0);
+}
+
+.text-hover-error-dark-1:hover {
+  color: rgb(229.5, 0, 0);
+}
+
+.bg-error-dark-1 {
+  background-color: rgb(229.5, 0, 0);
+}
+
+.text-error-light-2 {
+  color: #ff3333;
+}
+
+.bg-error-light-2 {
+  background-color: #ff3333;
+}
+
+.bg-hover-error-light-2:hover {
+  background-color: #ff3333;
+}
+
+.text-hover-error-light-2:hover {
+  color: #ff3333;
+}
+
+.text-error-dark-2 {
+  color: #cc0000;
+}
+
+.bg-hover-error-dark-2:hover {
+  background-color: #cc0000;
+}
+
+.text-hover-error-dark-2:hover {
+  color: #cc0000;
+}
+
+.bg-error-dark-2 {
+  background-color: #cc0000;
+}
+
+.text-error-light-3 {
+  color: rgb(255, 76.5, 76.5);
+}
+
+.bg-error-light-3 {
+  background-color: rgb(255, 76.5, 76.5);
+}
+
+.bg-hover-error-light-3:hover {
+  background-color: rgb(255, 76.5, 76.5);
+}
+
+.text-hover-error-light-3:hover {
+  color: rgb(255, 76.5, 76.5);
+}
+
+.text-error-dark-3 {
+  color: rgb(178.5, 0, 0);
+}
+
+.bg-hover-error-dark-3:hover {
+  background-color: rgb(178.5, 0, 0);
+}
+
+.text-hover-error-dark-3:hover {
+  color: rgb(178.5, 0, 0);
+}
+
+.bg-error-dark-3 {
+  background-color: rgb(178.5, 0, 0);
+}
+
+.text-error-light-4 {
+  color: #ff6666;
+}
+
+.bg-error-light-4 {
+  background-color: #ff6666;
+}
+
+.bg-hover-error-light-4:hover {
+  background-color: #ff6666;
+}
+
+.text-hover-error-light-4:hover {
+  color: #ff6666;
+}
+
+.text-error-dark-4 {
+  color: #990000;
+}
+
+.bg-hover-error-dark-4:hover {
+  background-color: #990000;
+}
+
+.text-hover-error-dark-4:hover {
+  color: #990000;
+}
+
+.bg-error-dark-4 {
+  background-color: #990000;
+}
+
+.text-error-light-5 {
+  color: rgb(255, 127.5, 127.5);
+}
+
+.bg-error-light-5 {
+  background-color: rgb(255, 127.5, 127.5);
+}
+
+.bg-hover-error-light-5:hover {
+  background-color: rgb(255, 127.5, 127.5);
+}
+
+.text-hover-error-light-5:hover {
+  color: rgb(255, 127.5, 127.5);
+}
+
+.text-error-dark-5 {
+  color: rgb(127.5, 0, 0);
+}
+
+.bg-hover-error-dark-5:hover {
+  background-color: rgb(127.5, 0, 0);
+}
+
+.text-hover-error-dark-5:hover {
+  color: rgb(127.5, 0, 0);
+}
+
+.bg-error-dark-5 {
+  background-color: rgb(127.5, 0, 0);
+}
+
+.text-error-light-6 {
+  color: #ff9999;
+}
+
+.bg-error-light-6 {
+  background-color: #ff9999;
+}
+
+.bg-hover-error-light-6:hover {
+  background-color: #ff9999;
+}
+
+.text-hover-error-light-6:hover {
+  color: #ff9999;
+}
+
+.text-error-dark-6 {
+  color: #660000;
+}
+
+.bg-hover-error-dark-6:hover {
+  background-color: #660000;
+}
+
+.text-hover-error-dark-6:hover {
+  color: #660000;
+}
+
+.bg-error-dark-6 {
+  background-color: #660000;
+}
+
+.text-error-light-7 {
+  color: rgb(255, 178.5, 178.5);
+}
+
+.bg-error-light-7 {
+  background-color: rgb(255, 178.5, 178.5);
+}
+
+.bg-hover-error-light-7:hover {
+  background-color: rgb(255, 178.5, 178.5);
+}
+
+.text-hover-error-light-7:hover {
+  color: rgb(255, 178.5, 178.5);
+}
+
+.text-error-dark-7 {
+  color: rgb(76.5, 0, 0);
+}
+
+.bg-hover-error-dark-7:hover {
+  background-color: rgb(76.5, 0, 0);
+}
+
+.text-hover-error-dark-7:hover {
+  color: rgb(76.5, 0, 0);
+}
+
+.bg-error-dark-7 {
+  background-color: rgb(76.5, 0, 0);
+}
+
+.text-error-light-8 {
+  color: #ffcccc;
+}
+
+.bg-error-light-8 {
+  background-color: #ffcccc;
+}
+
+.bg-hover-error-light-8:hover {
+  background-color: #ffcccc;
+}
+
+.text-hover-error-light-8:hover {
+  color: #ffcccc;
+}
+
+.text-error-dark-8 {
+  color: #330000;
+}
+
+.bg-hover-error-dark-8:hover {
+  background-color: #330000;
+}
+
+.text-hover-error-dark-8:hover {
+  color: #330000;
+}
+
+.bg-error-dark-8 {
+  background-color: #330000;
+}
+
+.text-error-light-9 {
+  color: rgb(255, 229.5, 229.5);
+}
+
+.bg-error-light-9 {
+  background-color: rgb(255, 229.5, 229.5);
+}
+
+.bg-hover-error-light-9:hover {
+  background-color: rgb(255, 229.5, 229.5);
+}
+
+.text-hover-error-light-9:hover {
+  color: rgb(255, 229.5, 229.5);
+}
+
+.text-error-dark-9 {
+  color: rgb(25.5, 0, 0);
+}
+
+.bg-hover-error-dark-9:hover {
+  background-color: rgb(25.5, 0, 0);
+}
+
+.text-hover-error-dark-9:hover {
+  color: rgb(25.5, 0, 0);
+}
+
+.bg-error-dark-9 {
+  background-color: rgb(25.5, 0, 0);
+}
+
+.text-info {
+  color: orange;
+}
+
+.text-hover-info:hover {
+  color: orange;
+}
+
+.bg-info {
+  background-color: orange;
+}
+
+.bg-hover-info:hover {
+  background-color: orange;
+}
+
+.text-info-light-1 {
+  color: rgb(255, 174, 25.5);
+}
+
+.bg-info-light-1 {
+  background-color: rgb(255, 174, 25.5);
+}
+
+.bg-hover-info-light-1:hover {
+  background-color: rgb(255, 174, 25.5);
+}
+
+.text-hover-info-light-1:hover {
+  color: rgb(255, 174, 25.5);
+}
+
+.text-info-dark-1 {
+  color: rgb(229.5, 148.5, 0);
+}
+
+.bg-hover-info-dark-1:hover {
+  background-color: rgb(229.5, 148.5, 0);
+}
+
+.text-hover-info-dark-1:hover {
+  color: rgb(229.5, 148.5, 0);
+}
+
+.bg-info-dark-1 {
+  background-color: rgb(229.5, 148.5, 0);
+}
+
+.text-info-light-2 {
+  color: #ffb733;
+}
+
+.bg-info-light-2 {
+  background-color: #ffb733;
+}
+
+.bg-hover-info-light-2:hover {
+  background-color: #ffb733;
+}
+
+.text-hover-info-light-2:hover {
+  color: #ffb733;
+}
+
+.text-info-dark-2 {
+  color: #cc8400;
+}
+
+.bg-hover-info-dark-2:hover {
+  background-color: #cc8400;
+}
+
+.text-hover-info-dark-2:hover {
+  color: #cc8400;
+}
+
+.bg-info-dark-2 {
+  background-color: #cc8400;
+}
+
+.text-info-light-3 {
+  color: rgb(255, 192, 76.5);
+}
+
+.bg-info-light-3 {
+  background-color: rgb(255, 192, 76.5);
+}
+
+.bg-hover-info-light-3:hover {
+  background-color: rgb(255, 192, 76.5);
+}
+
+.text-hover-info-light-3:hover {
+  color: rgb(255, 192, 76.5);
+}
+
+.text-info-dark-3 {
+  color: rgb(178.5, 115.5, 0);
+}
+
+.bg-hover-info-dark-3:hover {
+  background-color: rgb(178.5, 115.5, 0);
+}
+
+.text-hover-info-dark-3:hover {
+  color: rgb(178.5, 115.5, 0);
+}
+
+.bg-info-dark-3 {
+  background-color: rgb(178.5, 115.5, 0);
+}
+
+.text-info-light-4 {
+  color: #ffc966;
+}
+
+.bg-info-light-4 {
+  background-color: #ffc966;
+}
+
+.bg-hover-info-light-4:hover {
+  background-color: #ffc966;
+}
+
+.text-hover-info-light-4:hover {
+  color: #ffc966;
+}
+
+.text-info-dark-4 {
+  color: #996300;
+}
+
+.bg-hover-info-dark-4:hover {
+  background-color: #996300;
+}
+
+.text-hover-info-dark-4:hover {
+  color: #996300;
+}
+
+.bg-info-dark-4 {
+  background-color: #996300;
+}
+
+.text-info-light-5 {
+  color: rgb(255, 210, 127.5);
+}
+
+.bg-info-light-5 {
+  background-color: rgb(255, 210, 127.5);
+}
+
+.bg-hover-info-light-5:hover {
+  background-color: rgb(255, 210, 127.5);
+}
+
+.text-hover-info-light-5:hover {
+  color: rgb(255, 210, 127.5);
+}
+
+.text-info-dark-5 {
+  color: rgb(127.5, 82.5, 0);
+}
+
+.bg-hover-info-dark-5:hover {
+  background-color: rgb(127.5, 82.5, 0);
+}
+
+.text-hover-info-dark-5:hover {
+  color: rgb(127.5, 82.5, 0);
+}
+
+.bg-info-dark-5 {
+  background-color: rgb(127.5, 82.5, 0);
+}
+
+.text-info-light-6 {
+  color: #ffdb99;
+}
+
+.bg-info-light-6 {
+  background-color: #ffdb99;
+}
+
+.bg-hover-info-light-6:hover {
+  background-color: #ffdb99;
+}
+
+.text-hover-info-light-6:hover {
+  color: #ffdb99;
+}
+
+.text-info-dark-6 {
+  color: #664200;
+}
+
+.bg-hover-info-dark-6:hover {
+  background-color: #664200;
+}
+
+.text-hover-info-dark-6:hover {
+  color: #664200;
+}
+
+.bg-info-dark-6 {
+  background-color: #664200;
+}
+
+.text-info-light-7 {
+  color: rgb(255, 228, 178.5);
+}
+
+.bg-info-light-7 {
+  background-color: rgb(255, 228, 178.5);
+}
+
+.bg-hover-info-light-7:hover {
+  background-color: rgb(255, 228, 178.5);
+}
+
+.text-hover-info-light-7:hover {
+  color: rgb(255, 228, 178.5);
+}
+
+.text-info-dark-7 {
+  color: rgb(76.5, 49.5, 0);
+}
+
+.bg-hover-info-dark-7:hover {
+  background-color: rgb(76.5, 49.5, 0);
+}
+
+.text-hover-info-dark-7:hover {
+  color: rgb(76.5, 49.5, 0);
+}
+
+.bg-info-dark-7 {
+  background-color: rgb(76.5, 49.5, 0);
+}
+
+.text-info-light-8 {
+  color: #ffedcc;
+}
+
+.bg-info-light-8 {
+  background-color: #ffedcc;
+}
+
+.bg-hover-info-light-8:hover {
+  background-color: #ffedcc;
+}
+
+.text-hover-info-light-8:hover {
+  color: #ffedcc;
+}
+
+.text-info-dark-8 {
+  color: #332100;
+}
+
+.bg-hover-info-dark-8:hover {
+  background-color: #332100;
+}
+
+.text-hover-info-dark-8:hover {
+  color: #332100;
+}
+
+.bg-info-dark-8 {
+  background-color: #332100;
+}
+
+.text-info-light-9 {
+  color: rgb(255, 246, 229.5);
+}
+
+.bg-info-light-9 {
+  background-color: rgb(255, 246, 229.5);
+}
+
+.bg-hover-info-light-9:hover {
+  background-color: rgb(255, 246, 229.5);
+}
+
+.text-hover-info-light-9:hover {
+  color: rgb(255, 246, 229.5);
+}
+
+.text-info-dark-9 {
+  color: rgb(25.5, 16.5, 0);
+}
+
+.bg-hover-info-dark-9:hover {
+  background-color: rgb(25.5, 16.5, 0);
+}
+
+.text-hover-info-dark-9:hover {
+  color: rgb(25.5, 16.5, 0);
+}
+
+.bg-info-dark-9 {
+  background-color: rgb(25.5, 16.5, 0);
+}
+
+.text-Blue {
+  color: blue;
+}
+
+.text-hover-Blue:hover {
+  color: blue;
+}
+
+.bg-Blue {
+  background-color: blue;
+}
+
+.bg-hover-Blue:hover {
+  background-color: blue;
+}
+
+.text-Blue-light-1 {
+  color: rgb(25.5, 25.5, 255);
+}
+
+.bg-Blue-light-1 {
+  background-color: rgb(25.5, 25.5, 255);
+}
+
+.bg-hover-Blue-light-1:hover {
+  background-color: rgb(25.5, 25.5, 255);
+}
+
+.text-hover-Blue-light-1:hover {
+  color: rgb(25.5, 25.5, 255);
+}
+
+.text-Blue-dark-1 {
+  color: rgb(0, 0, 229.5);
+}
+
+.bg-hover-Blue-dark-1:hover {
+  background-color: rgb(0, 0, 229.5);
+}
+
+.text-hover-Blue-dark-1:hover {
+  color: rgb(0, 0, 229.5);
+}
+
+.bg-Blue-dark-1 {
+  background-color: rgb(0, 0, 229.5);
+}
+
+.text-Blue-light-2 {
+  color: #3333ff;
+}
+
+.bg-Blue-light-2 {
+  background-color: #3333ff;
+}
+
+.bg-hover-Blue-light-2:hover {
+  background-color: #3333ff;
+}
+
+.text-hover-Blue-light-2:hover {
+  color: #3333ff;
+}
+
+.text-Blue-dark-2 {
+  color: #0000cc;
+}
+
+.bg-hover-Blue-dark-2:hover {
+  background-color: #0000cc;
+}
+
+.text-hover-Blue-dark-2:hover {
+  color: #0000cc;
+}
+
+.bg-Blue-dark-2 {
+  background-color: #0000cc;
+}
+
+.text-Blue-light-3 {
+  color: rgb(76.5, 76.5, 255);
+}
+
+.bg-Blue-light-3 {
+  background-color: rgb(76.5, 76.5, 255);
+}
+
+.bg-hover-Blue-light-3:hover {
+  background-color: rgb(76.5, 76.5, 255);
+}
+
+.text-hover-Blue-light-3:hover {
+  color: rgb(76.5, 76.5, 255);
+}
+
+.text-Blue-dark-3 {
+  color: rgb(0, 0, 178.5);
+}
+
+.bg-hover-Blue-dark-3:hover {
+  background-color: rgb(0, 0, 178.5);
+}
+
+.text-hover-Blue-dark-3:hover {
+  color: rgb(0, 0, 178.5);
+}
+
+.bg-Blue-dark-3 {
+  background-color: rgb(0, 0, 178.5);
+}
+
+.text-Blue-light-4 {
+  color: #6666ff;
+}
+
+.bg-Blue-light-4 {
+  background-color: #6666ff;
+}
+
+.bg-hover-Blue-light-4:hover {
+  background-color: #6666ff;
+}
+
+.text-hover-Blue-light-4:hover {
+  color: #6666ff;
+}
+
+.text-Blue-dark-4 {
+  color: #000099;
+}
+
+.bg-hover-Blue-dark-4:hover {
+  background-color: #000099;
+}
+
+.text-hover-Blue-dark-4:hover {
+  color: #000099;
+}
+
+.bg-Blue-dark-4 {
+  background-color: #000099;
+}
+
+.text-Blue-light-5 {
+  color: rgb(127.5, 127.5, 255);
+}
+
+.bg-Blue-light-5 {
+  background-color: rgb(127.5, 127.5, 255);
+}
+
+.bg-hover-Blue-light-5:hover {
+  background-color: rgb(127.5, 127.5, 255);
+}
+
+.text-hover-Blue-light-5:hover {
+  color: rgb(127.5, 127.5, 255);
+}
+
+.text-Blue-dark-5 {
+  color: rgb(0, 0, 127.5);
+}
+
+.bg-hover-Blue-dark-5:hover {
+  background-color: rgb(0, 0, 127.5);
+}
+
+.text-hover-Blue-dark-5:hover {
+  color: rgb(0, 0, 127.5);
+}
+
+.bg-Blue-dark-5 {
+  background-color: rgb(0, 0, 127.5);
+}
+
+.text-Blue-light-6 {
+  color: #9999ff;
+}
+
+.bg-Blue-light-6 {
+  background-color: #9999ff;
+}
+
+.bg-hover-Blue-light-6:hover {
+  background-color: #9999ff;
+}
+
+.text-hover-Blue-light-6:hover {
+  color: #9999ff;
+}
+
+.text-Blue-dark-6 {
+  color: #000066;
+}
+
+.bg-hover-Blue-dark-6:hover {
+  background-color: #000066;
+}
+
+.text-hover-Blue-dark-6:hover {
+  color: #000066;
+}
+
+.bg-Blue-dark-6 {
+  background-color: #000066;
+}
+
+.text-Blue-light-7 {
+  color: rgb(178.5, 178.5, 255);
+}
+
+.bg-Blue-light-7 {
+  background-color: rgb(178.5, 178.5, 255);
+}
+
+.bg-hover-Blue-light-7:hover {
+  background-color: rgb(178.5, 178.5, 255);
+}
+
+.text-hover-Blue-light-7:hover {
+  color: rgb(178.5, 178.5, 255);
+}
+
+.text-Blue-dark-7 {
+  color: rgb(0, 0, 76.5);
+}
+
+.bg-hover-Blue-dark-7:hover {
+  background-color: rgb(0, 0, 76.5);
+}
+
+.text-hover-Blue-dark-7:hover {
+  color: rgb(0, 0, 76.5);
+}
+
+.bg-Blue-dark-7 {
+  background-color: rgb(0, 0, 76.5);
+}
+
+.text-Blue-light-8 {
+  color: #ccccff;
+}
+
+.bg-Blue-light-8 {
+  background-color: #ccccff;
+}
+
+.bg-hover-Blue-light-8:hover {
+  background-color: #ccccff;
+}
+
+.text-hover-Blue-light-8:hover {
+  color: #ccccff;
+}
+
+.text-Blue-dark-8 {
+  color: #000033;
+}
+
+.bg-hover-Blue-dark-8:hover {
+  background-color: #000033;
+}
+
+.text-hover-Blue-dark-8:hover {
+  color: #000033;
+}
+
+.bg-Blue-dark-8 {
+  background-color: #000033;
+}
+
+.text-Blue-light-9 {
+  color: rgb(229.5, 229.5, 255);
+}
+
+.bg-Blue-light-9 {
+  background-color: rgb(229.5, 229.5, 255);
+}
+
+.bg-hover-Blue-light-9:hover {
+  background-color: rgb(229.5, 229.5, 255);
+}
+
+.text-hover-Blue-light-9:hover {
+  color: rgb(229.5, 229.5, 255);
+}
+
+.text-Blue-dark-9 {
+  color: rgb(0, 0, 25.5);
+}
+
+.bg-hover-Blue-dark-9:hover {
+  background-color: rgb(0, 0, 25.5);
+}
+
+.text-hover-Blue-dark-9:hover {
+  color: rgb(0, 0, 25.5);
+}
+
+.bg-Blue-dark-9 {
+  background-color: rgb(0, 0, 25.5);
+}
+
+.text-Green {
+  color: green;
+}
+
+.text-hover-Green:hover {
+  color: green;
+}
+
+.bg-Green {
+  background-color: green;
+}
+
+.bg-hover-Green:hover {
+  background-color: green;
+}
+
+.text-Green-light-1 {
+  color: rgb(25.5, 140.7, 25.5);
+}
+
+.bg-Green-light-1 {
+  background-color: rgb(25.5, 140.7, 25.5);
+}
+
+.bg-hover-Green-light-1:hover {
+  background-color: rgb(25.5, 140.7, 25.5);
+}
+
+.text-hover-Green-light-1:hover {
+  color: rgb(25.5, 140.7, 25.5);
+}
+
+.text-Green-dark-1 {
+  color: rgb(0, 115.2, 0);
+}
+
+.bg-hover-Green-dark-1:hover {
+  background-color: rgb(0, 115.2, 0);
+}
+
+.text-hover-Green-dark-1:hover {
+  color: rgb(0, 115.2, 0);
+}
+
+.bg-Green-dark-1 {
+  background-color: rgb(0, 115.2, 0);
+}
+
+.text-Green-light-2 {
+  color: rgb(51, 153.4, 51);
+}
+
+.bg-Green-light-2 {
+  background-color: rgb(51, 153.4, 51);
+}
+
+.bg-hover-Green-light-2:hover {
+  background-color: rgb(51, 153.4, 51);
+}
+
+.text-hover-Green-light-2:hover {
+  color: rgb(51, 153.4, 51);
+}
+
+.text-Green-dark-2 {
+  color: rgb(0, 102.4, 0);
+}
+
+.bg-hover-Green-dark-2:hover {
+  background-color: rgb(0, 102.4, 0);
+}
+
+.text-hover-Green-dark-2:hover {
+  color: rgb(0, 102.4, 0);
+}
+
+.bg-Green-dark-2 {
+  background-color: rgb(0, 102.4, 0);
+}
+
+.text-Green-light-3 {
+  color: rgb(76.5, 166.1, 76.5);
+}
+
+.bg-Green-light-3 {
+  background-color: rgb(76.5, 166.1, 76.5);
+}
+
+.bg-hover-Green-light-3:hover {
+  background-color: rgb(76.5, 166.1, 76.5);
+}
+
+.text-hover-Green-light-3:hover {
+  color: rgb(76.5, 166.1, 76.5);
+}
+
+.text-Green-dark-3 {
+  color: rgb(0, 89.6, 0);
+}
+
+.bg-hover-Green-dark-3:hover {
+  background-color: rgb(0, 89.6, 0);
+}
+
+.text-hover-Green-dark-3:hover {
+  color: rgb(0, 89.6, 0);
+}
+
+.bg-Green-dark-3 {
+  background-color: rgb(0, 89.6, 0);
+}
+
+.text-Green-light-4 {
+  color: rgb(102, 178.8, 102);
+}
+
+.bg-Green-light-4 {
+  background-color: rgb(102, 178.8, 102);
+}
+
+.bg-hover-Green-light-4:hover {
+  background-color: rgb(102, 178.8, 102);
+}
+
+.text-hover-Green-light-4:hover {
+  color: rgb(102, 178.8, 102);
+}
+
+.text-Green-dark-4 {
+  color: rgb(0, 76.8, 0);
+}
+
+.bg-hover-Green-dark-4:hover {
+  background-color: rgb(0, 76.8, 0);
+}
+
+.text-hover-Green-dark-4:hover {
+  color: rgb(0, 76.8, 0);
+}
+
+.bg-Green-dark-4 {
+  background-color: rgb(0, 76.8, 0);
+}
+
+.text-Green-light-5 {
+  color: rgb(127.5, 191.5, 127.5);
+}
+
+.bg-Green-light-5 {
+  background-color: rgb(127.5, 191.5, 127.5);
+}
+
+.bg-hover-Green-light-5:hover {
+  background-color: rgb(127.5, 191.5, 127.5);
+}
+
+.text-hover-Green-light-5:hover {
+  color: rgb(127.5, 191.5, 127.5);
+}
+
+.text-Green-dark-5 {
+  color: #004000;
+}
+
+.bg-hover-Green-dark-5:hover {
+  background-color: #004000;
+}
+
+.text-hover-Green-dark-5:hover {
+  color: #004000;
+}
+
+.bg-Green-dark-5 {
+  background-color: #004000;
+}
+
+.text-Green-light-6 {
+  color: rgb(153, 204.2, 153);
+}
+
+.bg-Green-light-6 {
+  background-color: rgb(153, 204.2, 153);
+}
+
+.bg-hover-Green-light-6:hover {
+  background-color: rgb(153, 204.2, 153);
+}
+
+.text-hover-Green-light-6:hover {
+  color: rgb(153, 204.2, 153);
+}
+
+.text-Green-dark-6 {
+  color: rgb(0, 51.2, 0);
+}
+
+.bg-hover-Green-dark-6:hover {
+  background-color: rgb(0, 51.2, 0);
+}
+
+.text-hover-Green-dark-6:hover {
+  color: rgb(0, 51.2, 0);
+}
+
+.bg-Green-dark-6 {
+  background-color: rgb(0, 51.2, 0);
+}
+
+.text-Green-light-7 {
+  color: rgb(178.5, 216.9, 178.5);
+}
+
+.bg-Green-light-7 {
+  background-color: rgb(178.5, 216.9, 178.5);
+}
+
+.bg-hover-Green-light-7:hover {
+  background-color: rgb(178.5, 216.9, 178.5);
+}
+
+.text-hover-Green-light-7:hover {
+  color: rgb(178.5, 216.9, 178.5);
+}
+
+.text-Green-dark-7 {
+  color: rgb(0, 38.4, 0);
+}
+
+.bg-hover-Green-dark-7:hover {
+  background-color: rgb(0, 38.4, 0);
+}
+
+.text-hover-Green-dark-7:hover {
+  color: rgb(0, 38.4, 0);
+}
+
+.bg-Green-dark-7 {
+  background-color: rgb(0, 38.4, 0);
+}
+
+.text-Green-light-8 {
+  color: rgb(204, 229.6, 204);
+}
+
+.bg-Green-light-8 {
+  background-color: rgb(204, 229.6, 204);
+}
+
+.bg-hover-Green-light-8:hover {
+  background-color: rgb(204, 229.6, 204);
+}
+
+.text-hover-Green-light-8:hover {
+  color: rgb(204, 229.6, 204);
+}
+
+.text-Green-dark-8 {
+  color: rgb(0, 25.6, 0);
+}
+
+.bg-hover-Green-dark-8:hover {
+  background-color: rgb(0, 25.6, 0);
+}
+
+.text-hover-Green-dark-8:hover {
+  color: rgb(0, 25.6, 0);
+}
+
+.bg-Green-dark-8 {
+  background-color: rgb(0, 25.6, 0);
+}
+
+.text-Green-light-9 {
+  color: rgb(229.5, 242.3, 229.5);
+}
+
+.bg-Green-light-9 {
+  background-color: rgb(229.5, 242.3, 229.5);
+}
+
+.bg-hover-Green-light-9:hover {
+  background-color: rgb(229.5, 242.3, 229.5);
+}
+
+.text-hover-Green-light-9:hover {
+  color: rgb(229.5, 242.3, 229.5);
+}
+
+.text-Green-dark-9 {
+  color: rgb(0, 12.8, 0);
+}
+
+.bg-hover-Green-dark-9:hover {
+  background-color: rgb(0, 12.8, 0);
+}
+
+.text-hover-Green-dark-9:hover {
+  color: rgb(0, 12.8, 0);
+}
+
+.bg-Green-dark-9 {
+  background-color: rgb(0, 12.8, 0);
+}
+
+.text-Yellow {
+  color: yellow;
+}
+
+.text-hover-Yellow:hover {
+  color: yellow;
+}
+
+.bg-Yellow {
+  background-color: yellow;
+}
+
+.bg-hover-Yellow:hover {
+  background-color: yellow;
+}
+
+.text-Yellow-light-1 {
+  color: rgb(255, 255, 25.5);
+}
+
+.bg-Yellow-light-1 {
+  background-color: rgb(255, 255, 25.5);
+}
+
+.bg-hover-Yellow-light-1:hover {
+  background-color: rgb(255, 255, 25.5);
+}
+
+.text-hover-Yellow-light-1:hover {
+  color: rgb(255, 255, 25.5);
+}
+
+.text-Yellow-dark-1 {
+  color: rgb(229.5, 229.5, 0);
+}
+
+.bg-hover-Yellow-dark-1:hover {
+  background-color: rgb(229.5, 229.5, 0);
+}
+
+.text-hover-Yellow-dark-1:hover {
+  color: rgb(229.5, 229.5, 0);
+}
+
+.bg-Yellow-dark-1 {
+  background-color: rgb(229.5, 229.5, 0);
+}
+
+.text-Yellow-light-2 {
+  color: #ffff33;
+}
+
+.bg-Yellow-light-2 {
+  background-color: #ffff33;
+}
+
+.bg-hover-Yellow-light-2:hover {
+  background-color: #ffff33;
+}
+
+.text-hover-Yellow-light-2:hover {
+  color: #ffff33;
+}
+
+.text-Yellow-dark-2 {
+  color: #cccc00;
+}
+
+.bg-hover-Yellow-dark-2:hover {
+  background-color: #cccc00;
+}
+
+.text-hover-Yellow-dark-2:hover {
+  color: #cccc00;
+}
+
+.bg-Yellow-dark-2 {
+  background-color: #cccc00;
+}
+
+.text-Yellow-light-3 {
+  color: rgb(255, 255, 76.5);
+}
+
+.bg-Yellow-light-3 {
+  background-color: rgb(255, 255, 76.5);
+}
+
+.bg-hover-Yellow-light-3:hover {
+  background-color: rgb(255, 255, 76.5);
+}
+
+.text-hover-Yellow-light-3:hover {
+  color: rgb(255, 255, 76.5);
+}
+
+.text-Yellow-dark-3 {
+  color: rgb(178.5, 178.5, 0);
+}
+
+.bg-hover-Yellow-dark-3:hover {
+  background-color: rgb(178.5, 178.5, 0);
+}
+
+.text-hover-Yellow-dark-3:hover {
+  color: rgb(178.5, 178.5, 0);
+}
+
+.bg-Yellow-dark-3 {
+  background-color: rgb(178.5, 178.5, 0);
+}
+
+.text-Yellow-light-4 {
+  color: #ffff66;
+}
+
+.bg-Yellow-light-4 {
+  background-color: #ffff66;
+}
+
+.bg-hover-Yellow-light-4:hover {
+  background-color: #ffff66;
+}
+
+.text-hover-Yellow-light-4:hover {
+  color: #ffff66;
+}
+
+.text-Yellow-dark-4 {
+  color: #999900;
+}
+
+.bg-hover-Yellow-dark-4:hover {
+  background-color: #999900;
+}
+
+.text-hover-Yellow-dark-4:hover {
+  color: #999900;
+}
+
+.bg-Yellow-dark-4 {
+  background-color: #999900;
+}
+
+.text-Yellow-light-5 {
+  color: rgb(255, 255, 127.5);
+}
+
+.bg-Yellow-light-5 {
+  background-color: rgb(255, 255, 127.5);
+}
+
+.bg-hover-Yellow-light-5:hover {
+  background-color: rgb(255, 255, 127.5);
+}
+
+.text-hover-Yellow-light-5:hover {
+  color: rgb(255, 255, 127.5);
+}
+
+.text-Yellow-dark-5 {
+  color: rgb(127.5, 127.5, 0);
+}
+
+.bg-hover-Yellow-dark-5:hover {
+  background-color: rgb(127.5, 127.5, 0);
+}
+
+.text-hover-Yellow-dark-5:hover {
+  color: rgb(127.5, 127.5, 0);
+}
+
+.bg-Yellow-dark-5 {
+  background-color: rgb(127.5, 127.5, 0);
+}
+
+.text-Yellow-light-6 {
+  color: #ffff99;
+}
+
+.bg-Yellow-light-6 {
+  background-color: #ffff99;
+}
+
+.bg-hover-Yellow-light-6:hover {
+  background-color: #ffff99;
+}
+
+.text-hover-Yellow-light-6:hover {
+  color: #ffff99;
+}
+
+.text-Yellow-dark-6 {
+  color: #666600;
+}
+
+.bg-hover-Yellow-dark-6:hover {
+  background-color: #666600;
+}
+
+.text-hover-Yellow-dark-6:hover {
+  color: #666600;
+}
+
+.bg-Yellow-dark-6 {
+  background-color: #666600;
+}
+
+.text-Yellow-light-7 {
+  color: rgb(255, 255, 178.5);
+}
+
+.bg-Yellow-light-7 {
+  background-color: rgb(255, 255, 178.5);
+}
+
+.bg-hover-Yellow-light-7:hover {
+  background-color: rgb(255, 255, 178.5);
+}
+
+.text-hover-Yellow-light-7:hover {
+  color: rgb(255, 255, 178.5);
+}
+
+.text-Yellow-dark-7 {
+  color: rgb(76.5, 76.5, 0);
+}
+
+.bg-hover-Yellow-dark-7:hover {
+  background-color: rgb(76.5, 76.5, 0);
+}
+
+.text-hover-Yellow-dark-7:hover {
+  color: rgb(76.5, 76.5, 0);
+}
+
+.bg-Yellow-dark-7 {
+  background-color: rgb(76.5, 76.5, 0);
+}
+
+.text-Yellow-light-8 {
+  color: #ffffcc;
+}
+
+.bg-Yellow-light-8 {
+  background-color: #ffffcc;
+}
+
+.bg-hover-Yellow-light-8:hover {
+  background-color: #ffffcc;
+}
+
+.text-hover-Yellow-light-8:hover {
+  color: #ffffcc;
+}
+
+.text-Yellow-dark-8 {
+  color: #333300;
+}
+
+.bg-hover-Yellow-dark-8:hover {
+  background-color: #333300;
+}
+
+.text-hover-Yellow-dark-8:hover {
+  color: #333300;
+}
+
+.bg-Yellow-dark-8 {
+  background-color: #333300;
+}
+
+.text-Yellow-light-9 {
+  color: rgb(255, 255, 229.5);
+}
+
+.bg-Yellow-light-9 {
+  background-color: rgb(255, 255, 229.5);
+}
+
+.bg-hover-Yellow-light-9:hover {
+  background-color: rgb(255, 255, 229.5);
+}
+
+.text-hover-Yellow-light-9:hover {
+  color: rgb(255, 255, 229.5);
+}
+
+.text-Yellow-dark-9 {
+  color: rgb(25.5, 25.5, 0);
+}
+
+.bg-hover-Yellow-dark-9:hover {
+  background-color: rgb(25.5, 25.5, 0);
+}
+
+.text-hover-Yellow-dark-9:hover {
+  color: rgb(25.5, 25.5, 0);
+}
+
+.bg-Yellow-dark-9 {
+  background-color: rgb(25.5, 25.5, 0);
+}
+
+.text-Orange {
+  color: orange;
+}
+
+.text-hover-Orange:hover {
+  color: orange;
+}
+
+.bg-Orange {
+  background-color: orange;
+}
+
+.bg-hover-Orange:hover {
+  background-color: orange;
+}
+
+.text-Orange-light-1 {
+  color: rgb(255, 174, 25.5);
+}
+
+.bg-Orange-light-1 {
+  background-color: rgb(255, 174, 25.5);
+}
+
+.bg-hover-Orange-light-1:hover {
+  background-color: rgb(255, 174, 25.5);
+}
+
+.text-hover-Orange-light-1:hover {
+  color: rgb(255, 174, 25.5);
+}
+
+.text-Orange-dark-1 {
+  color: rgb(229.5, 148.5, 0);
+}
+
+.bg-hover-Orange-dark-1:hover {
+  background-color: rgb(229.5, 148.5, 0);
+}
+
+.text-hover-Orange-dark-1:hover {
+  color: rgb(229.5, 148.5, 0);
+}
+
+.bg-Orange-dark-1 {
+  background-color: rgb(229.5, 148.5, 0);
+}
+
+.text-Orange-light-2 {
+  color: #ffb733;
+}
+
+.bg-Orange-light-2 {
+  background-color: #ffb733;
+}
+
+.bg-hover-Orange-light-2:hover {
+  background-color: #ffb733;
+}
+
+.text-hover-Orange-light-2:hover {
+  color: #ffb733;
+}
+
+.text-Orange-dark-2 {
+  color: #cc8400;
+}
+
+.bg-hover-Orange-dark-2:hover {
+  background-color: #cc8400;
+}
+
+.text-hover-Orange-dark-2:hover {
+  color: #cc8400;
+}
+
+.bg-Orange-dark-2 {
+  background-color: #cc8400;
+}
+
+.text-Orange-light-3 {
+  color: rgb(255, 192, 76.5);
+}
+
+.bg-Orange-light-3 {
+  background-color: rgb(255, 192, 76.5);
+}
+
+.bg-hover-Orange-light-3:hover {
+  background-color: rgb(255, 192, 76.5);
+}
+
+.text-hover-Orange-light-3:hover {
+  color: rgb(255, 192, 76.5);
+}
+
+.text-Orange-dark-3 {
+  color: rgb(178.5, 115.5, 0);
+}
+
+.bg-hover-Orange-dark-3:hover {
+  background-color: rgb(178.5, 115.5, 0);
+}
+
+.text-hover-Orange-dark-3:hover {
+  color: rgb(178.5, 115.5, 0);
+}
+
+.bg-Orange-dark-3 {
+  background-color: rgb(178.5, 115.5, 0);
+}
+
+.text-Orange-light-4 {
+  color: #ffc966;
+}
+
+.bg-Orange-light-4 {
+  background-color: #ffc966;
+}
+
+.bg-hover-Orange-light-4:hover {
+  background-color: #ffc966;
+}
+
+.text-hover-Orange-light-4:hover {
+  color: #ffc966;
+}
+
+.text-Orange-dark-4 {
+  color: #996300;
+}
+
+.bg-hover-Orange-dark-4:hover {
+  background-color: #996300;
+}
+
+.text-hover-Orange-dark-4:hover {
+  color: #996300;
+}
+
+.bg-Orange-dark-4 {
+  background-color: #996300;
+}
+
+.text-Orange-light-5 {
+  color: rgb(255, 210, 127.5);
+}
+
+.bg-Orange-light-5 {
+  background-color: rgb(255, 210, 127.5);
+}
+
+.bg-hover-Orange-light-5:hover {
+  background-color: rgb(255, 210, 127.5);
+}
+
+.text-hover-Orange-light-5:hover {
+  color: rgb(255, 210, 127.5);
+}
+
+.text-Orange-dark-5 {
+  color: rgb(127.5, 82.5, 0);
+}
+
+.bg-hover-Orange-dark-5:hover {
+  background-color: rgb(127.5, 82.5, 0);
+}
+
+.text-hover-Orange-dark-5:hover {
+  color: rgb(127.5, 82.5, 0);
+}
+
+.bg-Orange-dark-5 {
+  background-color: rgb(127.5, 82.5, 0);
+}
+
+.text-Orange-light-6 {
+  color: #ffdb99;
+}
+
+.bg-Orange-light-6 {
+  background-color: #ffdb99;
+}
+
+.bg-hover-Orange-light-6:hover {
+  background-color: #ffdb99;
+}
+
+.text-hover-Orange-light-6:hover {
+  color: #ffdb99;
+}
+
+.text-Orange-dark-6 {
+  color: #664200;
+}
+
+.bg-hover-Orange-dark-6:hover {
+  background-color: #664200;
+}
+
+.text-hover-Orange-dark-6:hover {
+  color: #664200;
+}
+
+.bg-Orange-dark-6 {
+  background-color: #664200;
+}
+
+.text-Orange-light-7 {
+  color: rgb(255, 228, 178.5);
+}
+
+.bg-Orange-light-7 {
+  background-color: rgb(255, 228, 178.5);
+}
+
+.bg-hover-Orange-light-7:hover {
+  background-color: rgb(255, 228, 178.5);
+}
+
+.text-hover-Orange-light-7:hover {
+  color: rgb(255, 228, 178.5);
+}
+
+.text-Orange-dark-7 {
+  color: rgb(76.5, 49.5, 0);
+}
+
+.bg-hover-Orange-dark-7:hover {
+  background-color: rgb(76.5, 49.5, 0);
+}
+
+.text-hover-Orange-dark-7:hover {
+  color: rgb(76.5, 49.5, 0);
+}
+
+.bg-Orange-dark-7 {
+  background-color: rgb(76.5, 49.5, 0);
+}
+
+.text-Orange-light-8 {
+  color: #ffedcc;
+}
+
+.bg-Orange-light-8 {
+  background-color: #ffedcc;
+}
+
+.bg-hover-Orange-light-8:hover {
+  background-color: #ffedcc;
+}
+
+.text-hover-Orange-light-8:hover {
+  color: #ffedcc;
+}
+
+.text-Orange-dark-8 {
+  color: #332100;
+}
+
+.bg-hover-Orange-dark-8:hover {
+  background-color: #332100;
+}
+
+.text-hover-Orange-dark-8:hover {
+  color: #332100;
+}
+
+.bg-Orange-dark-8 {
+  background-color: #332100;
+}
+
+.text-Orange-light-9 {
+  color: rgb(255, 246, 229.5);
+}
+
+.bg-Orange-light-9 {
+  background-color: rgb(255, 246, 229.5);
+}
+
+.bg-hover-Orange-light-9:hover {
+  background-color: rgb(255, 246, 229.5);
+}
+
+.text-hover-Orange-light-9:hover {
+  color: rgb(255, 246, 229.5);
+}
+
+.text-Orange-dark-9 {
+  color: rgb(25.5, 16.5, 0);
+}
+
+.bg-hover-Orange-dark-9:hover {
+  background-color: rgb(25.5, 16.5, 0);
+}
+
+.text-hover-Orange-dark-9:hover {
+  color: rgb(25.5, 16.5, 0);
+}
+
+.bg-Orange-dark-9 {
+  background-color: rgb(25.5, 16.5, 0);
+}
+
+.text-Pupple {
+  color: purple;
+}
+
+.text-hover-Pupple:hover {
+  color: purple;
+}
+
+.bg-Pupple {
+  background-color: purple;
+}
+
+.bg-hover-Pupple:hover {
+  background-color: purple;
+}
+
+.text-Pupple-light-1 {
+  color: rgb(140.7, 25.5, 140.7);
+}
+
+.bg-Pupple-light-1 {
+  background-color: rgb(140.7, 25.5, 140.7);
+}
+
+.bg-hover-Pupple-light-1:hover {
+  background-color: rgb(140.7, 25.5, 140.7);
+}
+
+.text-hover-Pupple-light-1:hover {
+  color: rgb(140.7, 25.5, 140.7);
+}
+
+.text-Pupple-dark-1 {
+  color: rgb(115.2, 0, 115.2);
+}
+
+.bg-hover-Pupple-dark-1:hover {
+  background-color: rgb(115.2, 0, 115.2);
+}
+
+.text-hover-Pupple-dark-1:hover {
+  color: rgb(115.2, 0, 115.2);
+}
+
+.bg-Pupple-dark-1 {
+  background-color: rgb(115.2, 0, 115.2);
+}
+
+.text-Pupple-light-2 {
+  color: rgb(153.4, 51, 153.4);
+}
+
+.bg-Pupple-light-2 {
+  background-color: rgb(153.4, 51, 153.4);
+}
+
+.bg-hover-Pupple-light-2:hover {
+  background-color: rgb(153.4, 51, 153.4);
+}
+
+.text-hover-Pupple-light-2:hover {
+  color: rgb(153.4, 51, 153.4);
+}
+
+.text-Pupple-dark-2 {
+  color: rgb(102.4, 0, 102.4);
+}
+
+.bg-hover-Pupple-dark-2:hover {
+  background-color: rgb(102.4, 0, 102.4);
+}
+
+.text-hover-Pupple-dark-2:hover {
+  color: rgb(102.4, 0, 102.4);
+}
+
+.bg-Pupple-dark-2 {
+  background-color: rgb(102.4, 0, 102.4);
+}
+
+.text-Pupple-light-3 {
+  color: rgb(166.1, 76.5, 166.1);
+}
+
+.bg-Pupple-light-3 {
+  background-color: rgb(166.1, 76.5, 166.1);
+}
+
+.bg-hover-Pupple-light-3:hover {
+  background-color: rgb(166.1, 76.5, 166.1);
+}
+
+.text-hover-Pupple-light-3:hover {
+  color: rgb(166.1, 76.5, 166.1);
+}
+
+.text-Pupple-dark-3 {
+  color: rgb(89.6, 0, 89.6);
+}
+
+.bg-hover-Pupple-dark-3:hover {
+  background-color: rgb(89.6, 0, 89.6);
+}
+
+.text-hover-Pupple-dark-3:hover {
+  color: rgb(89.6, 0, 89.6);
+}
+
+.bg-Pupple-dark-3 {
+  background-color: rgb(89.6, 0, 89.6);
+}
+
+.text-Pupple-light-4 {
+  color: rgb(178.8, 102, 178.8);
+}
+
+.bg-Pupple-light-4 {
+  background-color: rgb(178.8, 102, 178.8);
+}
+
+.bg-hover-Pupple-light-4:hover {
+  background-color: rgb(178.8, 102, 178.8);
+}
+
+.text-hover-Pupple-light-4:hover {
+  color: rgb(178.8, 102, 178.8);
+}
+
+.text-Pupple-dark-4 {
+  color: rgb(76.8, 0, 76.8);
+}
+
+.bg-hover-Pupple-dark-4:hover {
+  background-color: rgb(76.8, 0, 76.8);
+}
+
+.text-hover-Pupple-dark-4:hover {
+  color: rgb(76.8, 0, 76.8);
+}
+
+.bg-Pupple-dark-4 {
+  background-color: rgb(76.8, 0, 76.8);
+}
+
+.text-Pupple-light-5 {
+  color: rgb(191.5, 127.5, 191.5);
+}
+
+.bg-Pupple-light-5 {
+  background-color: rgb(191.5, 127.5, 191.5);
+}
+
+.bg-hover-Pupple-light-5:hover {
+  background-color: rgb(191.5, 127.5, 191.5);
+}
+
+.text-hover-Pupple-light-5:hover {
+  color: rgb(191.5, 127.5, 191.5);
+}
+
+.text-Pupple-dark-5 {
+  color: #400040;
+}
+
+.bg-hover-Pupple-dark-5:hover {
+  background-color: #400040;
+}
+
+.text-hover-Pupple-dark-5:hover {
+  color: #400040;
+}
+
+.bg-Pupple-dark-5 {
+  background-color: #400040;
+}
+
+.text-Pupple-light-6 {
+  color: rgb(204.2, 153, 204.2);
+}
+
+.bg-Pupple-light-6 {
+  background-color: rgb(204.2, 153, 204.2);
+}
+
+.bg-hover-Pupple-light-6:hover {
+  background-color: rgb(204.2, 153, 204.2);
+}
+
+.text-hover-Pupple-light-6:hover {
+  color: rgb(204.2, 153, 204.2);
+}
+
+.text-Pupple-dark-6 {
+  color: rgb(51.2, 0, 51.2);
+}
+
+.bg-hover-Pupple-dark-6:hover {
+  background-color: rgb(51.2, 0, 51.2);
+}
+
+.text-hover-Pupple-dark-6:hover {
+  color: rgb(51.2, 0, 51.2);
+}
+
+.bg-Pupple-dark-6 {
+  background-color: rgb(51.2, 0, 51.2);
+}
+
+.text-Pupple-light-7 {
+  color: rgb(216.9, 178.5, 216.9);
+}
+
+.bg-Pupple-light-7 {
+  background-color: rgb(216.9, 178.5, 216.9);
+}
+
+.bg-hover-Pupple-light-7:hover {
+  background-color: rgb(216.9, 178.5, 216.9);
+}
+
+.text-hover-Pupple-light-7:hover {
+  color: rgb(216.9, 178.5, 216.9);
+}
+
+.text-Pupple-dark-7 {
+  color: rgb(38.4, 0, 38.4);
+}
+
+.bg-hover-Pupple-dark-7:hover {
+  background-color: rgb(38.4, 0, 38.4);
+}
+
+.text-hover-Pupple-dark-7:hover {
+  color: rgb(38.4, 0, 38.4);
+}
+
+.bg-Pupple-dark-7 {
+  background-color: rgb(38.4, 0, 38.4);
+}
+
+.text-Pupple-light-8 {
+  color: rgb(229.6, 204, 229.6);
+}
+
+.bg-Pupple-light-8 {
+  background-color: rgb(229.6, 204, 229.6);
+}
+
+.bg-hover-Pupple-light-8:hover {
+  background-color: rgb(229.6, 204, 229.6);
+}
+
+.text-hover-Pupple-light-8:hover {
+  color: rgb(229.6, 204, 229.6);
+}
+
+.text-Pupple-dark-8 {
+  color: rgb(25.6, 0, 25.6);
+}
+
+.bg-hover-Pupple-dark-8:hover {
+  background-color: rgb(25.6, 0, 25.6);
+}
+
+.text-hover-Pupple-dark-8:hover {
+  color: rgb(25.6, 0, 25.6);
+}
+
+.bg-Pupple-dark-8 {
+  background-color: rgb(25.6, 0, 25.6);
+}
+
+.text-Pupple-light-9 {
+  color: rgb(242.3, 229.5, 242.3);
+}
+
+.bg-Pupple-light-9 {
+  background-color: rgb(242.3, 229.5, 242.3);
+}
+
+.bg-hover-Pupple-light-9:hover {
+  background-color: rgb(242.3, 229.5, 242.3);
+}
+
+.text-hover-Pupple-light-9:hover {
+  color: rgb(242.3, 229.5, 242.3);
+}
+
+.text-Pupple-dark-9 {
+  color: rgb(12.8, 0, 12.8);
+}
+
+.bg-hover-Pupple-dark-9:hover {
+  background-color: rgb(12.8, 0, 12.8);
+}
+
+.text-hover-Pupple-dark-9:hover {
+  color: rgb(12.8, 0, 12.8);
+}
+
+.bg-Pupple-dark-9 {
+  background-color: rgb(12.8, 0, 12.8);
+}
+
+.text-Grey {
+  color: gray;
+}
+
+.text-hover-Grey:hover {
+  color: gray;
+}
+
+.bg-Grey {
+  background-color: gray;
+}
+
+.bg-hover-Grey:hover {
+  background-color: gray;
+}
+
+.text-Grey-light-1 {
+  color: rgb(140.7, 140.7, 140.7);
+}
+
+.bg-Grey-light-1 {
+  background-color: rgb(140.7, 140.7, 140.7);
+}
+
+.bg-hover-Grey-light-1:hover {
+  background-color: rgb(140.7, 140.7, 140.7);
+}
+
+.text-hover-Grey-light-1:hover {
+  color: rgb(140.7, 140.7, 140.7);
+}
+
+.text-Grey-dark-1 {
+  color: rgb(115.2, 115.2, 115.2);
+}
+
+.bg-hover-Grey-dark-1:hover {
+  background-color: rgb(115.2, 115.2, 115.2);
+}
+
+.text-hover-Grey-dark-1:hover {
+  color: rgb(115.2, 115.2, 115.2);
+}
+
+.bg-Grey-dark-1 {
+  background-color: rgb(115.2, 115.2, 115.2);
+}
+
+.text-Grey-light-2 {
+  color: rgb(153.4, 153.4, 153.4);
+}
+
+.bg-Grey-light-2 {
+  background-color: rgb(153.4, 153.4, 153.4);
+}
+
+.bg-hover-Grey-light-2:hover {
+  background-color: rgb(153.4, 153.4, 153.4);
+}
+
+.text-hover-Grey-light-2:hover {
+  color: rgb(153.4, 153.4, 153.4);
+}
+
+.text-Grey-dark-2 {
+  color: rgb(102.4, 102.4, 102.4);
+}
+
+.bg-hover-Grey-dark-2:hover {
+  background-color: rgb(102.4, 102.4, 102.4);
+}
+
+.text-hover-Grey-dark-2:hover {
+  color: rgb(102.4, 102.4, 102.4);
+}
+
+.bg-Grey-dark-2 {
+  background-color: rgb(102.4, 102.4, 102.4);
+}
+
+.text-Grey-light-3 {
+  color: rgb(166.1, 166.1, 166.1);
+}
+
+.bg-Grey-light-3 {
+  background-color: rgb(166.1, 166.1, 166.1);
+}
+
+.bg-hover-Grey-light-3:hover {
+  background-color: rgb(166.1, 166.1, 166.1);
+}
+
+.text-hover-Grey-light-3:hover {
+  color: rgb(166.1, 166.1, 166.1);
+}
+
+.text-Grey-dark-3 {
+  color: rgb(89.6, 89.6, 89.6);
+}
+
+.bg-hover-Grey-dark-3:hover {
+  background-color: rgb(89.6, 89.6, 89.6);
+}
+
+.text-hover-Grey-dark-3:hover {
+  color: rgb(89.6, 89.6, 89.6);
+}
+
+.bg-Grey-dark-3 {
+  background-color: rgb(89.6, 89.6, 89.6);
+}
+
+.text-Grey-light-4 {
+  color: rgb(178.8, 178.8, 178.8);
+}
+
+.bg-Grey-light-4 {
+  background-color: rgb(178.8, 178.8, 178.8);
+}
+
+.bg-hover-Grey-light-4:hover {
+  background-color: rgb(178.8, 178.8, 178.8);
+}
+
+.text-hover-Grey-light-4:hover {
+  color: rgb(178.8, 178.8, 178.8);
+}
+
+.text-Grey-dark-4 {
+  color: rgb(76.8, 76.8, 76.8);
+}
+
+.bg-hover-Grey-dark-4:hover {
+  background-color: rgb(76.8, 76.8, 76.8);
+}
+
+.text-hover-Grey-dark-4:hover {
+  color: rgb(76.8, 76.8, 76.8);
+}
+
+.bg-Grey-dark-4 {
+  background-color: rgb(76.8, 76.8, 76.8);
+}
+
+.text-Grey-light-5 {
+  color: rgb(191.5, 191.5, 191.5);
+}
+
+.bg-Grey-light-5 {
+  background-color: rgb(191.5, 191.5, 191.5);
+}
+
+.bg-hover-Grey-light-5:hover {
+  background-color: rgb(191.5, 191.5, 191.5);
+}
+
+.text-hover-Grey-light-5:hover {
+  color: rgb(191.5, 191.5, 191.5);
+}
+
+.text-Grey-dark-5 {
+  color: #404040;
+}
+
+.bg-hover-Grey-dark-5:hover {
+  background-color: #404040;
+}
+
+.text-hover-Grey-dark-5:hover {
+  color: #404040;
+}
+
+.bg-Grey-dark-5 {
+  background-color: #404040;
+}
+
+.text-Grey-light-6 {
+  color: rgb(204.2, 204.2, 204.2);
+}
+
+.bg-Grey-light-6 {
+  background-color: rgb(204.2, 204.2, 204.2);
+}
+
+.bg-hover-Grey-light-6:hover {
+  background-color: rgb(204.2, 204.2, 204.2);
+}
+
+.text-hover-Grey-light-6:hover {
+  color: rgb(204.2, 204.2, 204.2);
+}
+
+.text-Grey-dark-6 {
+  color: rgb(51.2, 51.2, 51.2);
+}
+
+.bg-hover-Grey-dark-6:hover {
+  background-color: rgb(51.2, 51.2, 51.2);
+}
+
+.text-hover-Grey-dark-6:hover {
+  color: rgb(51.2, 51.2, 51.2);
+}
+
+.bg-Grey-dark-6 {
+  background-color: rgb(51.2, 51.2, 51.2);
+}
+
+.text-Grey-light-7 {
+  color: rgb(216.9, 216.9, 216.9);
+}
+
+.bg-Grey-light-7 {
+  background-color: rgb(216.9, 216.9, 216.9);
+}
+
+.bg-hover-Grey-light-7:hover {
+  background-color: rgb(216.9, 216.9, 216.9);
+}
+
+.text-hover-Grey-light-7:hover {
+  color: rgb(216.9, 216.9, 216.9);
+}
+
+.text-Grey-dark-7 {
+  color: rgb(38.4, 38.4, 38.4);
+}
+
+.bg-hover-Grey-dark-7:hover {
+  background-color: rgb(38.4, 38.4, 38.4);
+}
+
+.text-hover-Grey-dark-7:hover {
+  color: rgb(38.4, 38.4, 38.4);
+}
+
+.bg-Grey-dark-7 {
+  background-color: rgb(38.4, 38.4, 38.4);
+}
+
+.text-Grey-light-8 {
+  color: rgb(229.6, 229.6, 229.6);
+}
+
+.bg-Grey-light-8 {
+  background-color: rgb(229.6, 229.6, 229.6);
+}
+
+.bg-hover-Grey-light-8:hover {
+  background-color: rgb(229.6, 229.6, 229.6);
+}
+
+.text-hover-Grey-light-8:hover {
+  color: rgb(229.6, 229.6, 229.6);
+}
+
+.text-Grey-dark-8 {
+  color: rgb(25.6, 25.6, 25.6);
+}
+
+.bg-hover-Grey-dark-8:hover {
+  background-color: rgb(25.6, 25.6, 25.6);
+}
+
+.text-hover-Grey-dark-8:hover {
+  color: rgb(25.6, 25.6, 25.6);
+}
+
+.bg-Grey-dark-8 {
+  background-color: rgb(25.6, 25.6, 25.6);
+}
+
+.text-Grey-light-9 {
+  color: rgb(242.3, 242.3, 242.3);
+}
+
+.bg-Grey-light-9 {
+  background-color: rgb(242.3, 242.3, 242.3);
+}
+
+.bg-hover-Grey-light-9:hover {
+  background-color: rgb(242.3, 242.3, 242.3);
+}
+
+.text-hover-Grey-light-9:hover {
+  color: rgb(242.3, 242.3, 242.3);
+}
+
+.text-Grey-dark-9 {
+  color: rgb(12.8, 12.8, 12.8);
+}
+
+.bg-hover-Grey-dark-9:hover {
+  background-color: rgb(12.8, 12.8, 12.8);
+}
+
+.text-hover-Grey-dark-9:hover {
+  color: rgb(12.8, 12.8, 12.8);
+}
+
+.bg-Grey-dark-9 {
+  background-color: rgb(12.8, 12.8, 12.8);
+}
+
+.text-Black {
+  color: #000;
+}
+
+.text-hover-Black:hover {
+  color: #000;
+}
+
+.bg-Black {
+  background-color: #000;
+}
+
+.bg-hover-Black:hover {
+  background-color: #000;
+}
+
+.text-White {
+  color: #fff;
+}
+
+.text-hover-White:hover {
+  color: #fff;
+}
+
+.bg-White {
+  background-color: #fff;
+}
+
+.bg-hover-White:hover {
+  background-color: #fff;
+}
+
+.text-Brown {
+  color: brown;
+}
+
+.text-hover-Brown:hover {
+  color: brown;
+}
+
+.bg-Brown {
+  background-color: brown;
+}
+
+.bg-hover-Brown:hover {
+  background-color: brown;
+}
+
+.text-Brown-light-1 {
+  color: rgb(174, 63.3, 63.3);
+}
+
+.bg-Brown-light-1 {
+  background-color: rgb(174, 63.3, 63.3);
+}
+
+.bg-hover-Brown-light-1:hover {
+  background-color: rgb(174, 63.3, 63.3);
+}
+
+.text-hover-Brown-light-1:hover {
+  color: rgb(174, 63.3, 63.3);
+}
+
+.text-Brown-dark-1 {
+  color: rgb(148.5, 37.8, 37.8);
+}
+
+.bg-hover-Brown-dark-1:hover {
+  background-color: rgb(148.5, 37.8, 37.8);
+}
+
+.text-hover-Brown-dark-1:hover {
+  color: rgb(148.5, 37.8, 37.8);
+}
+
+.bg-Brown-dark-1 {
+  background-color: rgb(148.5, 37.8, 37.8);
+}
+
+.text-Brown-light-2 {
+  color: rgb(183, 84.6, 84.6);
+}
+
+.bg-Brown-light-2 {
+  background-color: rgb(183, 84.6, 84.6);
+}
+
+.bg-hover-Brown-light-2:hover {
+  background-color: rgb(183, 84.6, 84.6);
+}
+
+.text-hover-Brown-light-2:hover {
+  color: rgb(183, 84.6, 84.6);
+}
+
+.text-Brown-dark-2 {
+  color: rgb(132, 33.6, 33.6);
+}
+
+.bg-hover-Brown-dark-2:hover {
+  background-color: rgb(132, 33.6, 33.6);
+}
+
+.text-hover-Brown-dark-2:hover {
+  color: rgb(132, 33.6, 33.6);
+}
+
+.bg-Brown-dark-2 {
+  background-color: rgb(132, 33.6, 33.6);
+}
+
+.text-Brown-light-3 {
+  color: rgb(192, 105.9, 105.9);
+}
+
+.bg-Brown-light-3 {
+  background-color: rgb(192, 105.9, 105.9);
+}
+
+.bg-hover-Brown-light-3:hover {
+  background-color: rgb(192, 105.9, 105.9);
+}
+
+.text-hover-Brown-light-3:hover {
+  color: rgb(192, 105.9, 105.9);
+}
+
+.text-Brown-dark-3 {
+  color: rgb(115.5, 29.4, 29.4);
+}
+
+.bg-hover-Brown-dark-3:hover {
+  background-color: rgb(115.5, 29.4, 29.4);
+}
+
+.text-hover-Brown-dark-3:hover {
+  color: rgb(115.5, 29.4, 29.4);
+}
+
+.bg-Brown-dark-3 {
+  background-color: rgb(115.5, 29.4, 29.4);
+}
+
+.text-Brown-light-4 {
+  color: rgb(201, 127.2, 127.2);
+}
+
+.bg-Brown-light-4 {
+  background-color: rgb(201, 127.2, 127.2);
+}
+
+.bg-hover-Brown-light-4:hover {
+  background-color: rgb(201, 127.2, 127.2);
+}
+
+.text-hover-Brown-light-4:hover {
+  color: rgb(201, 127.2, 127.2);
+}
+
+.text-Brown-dark-4 {
+  color: rgb(99, 25.2, 25.2);
+}
+
+.bg-hover-Brown-dark-4:hover {
+  background-color: rgb(99, 25.2, 25.2);
+}
+
+.text-hover-Brown-dark-4:hover {
+  color: rgb(99, 25.2, 25.2);
+}
+
+.bg-Brown-dark-4 {
+  background-color: rgb(99, 25.2, 25.2);
+}
+
+.text-Brown-light-5 {
+  color: rgb(210, 148.5, 148.5);
+}
+
+.bg-Brown-light-5 {
+  background-color: rgb(210, 148.5, 148.5);
+}
+
+.bg-hover-Brown-light-5:hover {
+  background-color: rgb(210, 148.5, 148.5);
+}
+
+.text-hover-Brown-light-5:hover {
+  color: rgb(210, 148.5, 148.5);
+}
+
+.text-Brown-dark-5 {
+  color: rgb(82.5, 21, 21);
+}
+
+.bg-hover-Brown-dark-5:hover {
+  background-color: rgb(82.5, 21, 21);
+}
+
+.text-hover-Brown-dark-5:hover {
+  color: rgb(82.5, 21, 21);
+}
+
+.bg-Brown-dark-5 {
+  background-color: rgb(82.5, 21, 21);
+}
+
+.text-Brown-light-6 {
+  color: rgb(219, 169.8, 169.8);
+}
+
+.bg-Brown-light-6 {
+  background-color: rgb(219, 169.8, 169.8);
+}
+
+.bg-hover-Brown-light-6:hover {
+  background-color: rgb(219, 169.8, 169.8);
+}
+
+.text-hover-Brown-light-6:hover {
+  color: rgb(219, 169.8, 169.8);
+}
+
+.text-Brown-dark-6 {
+  color: rgb(66, 16.8, 16.8);
+}
+
+.bg-hover-Brown-dark-6:hover {
+  background-color: rgb(66, 16.8, 16.8);
+}
+
+.text-hover-Brown-dark-6:hover {
+  color: rgb(66, 16.8, 16.8);
+}
+
+.bg-Brown-dark-6 {
+  background-color: rgb(66, 16.8, 16.8);
+}
+
+.text-Brown-light-7 {
+  color: rgb(228, 191.1, 191.1);
+}
+
+.bg-Brown-light-7 {
+  background-color: rgb(228, 191.1, 191.1);
+}
+
+.bg-hover-Brown-light-7:hover {
+  background-color: rgb(228, 191.1, 191.1);
+}
+
+.text-hover-Brown-light-7:hover {
+  color: rgb(228, 191.1, 191.1);
+}
+
+.text-Brown-dark-7 {
+  color: rgb(49.5, 12.6, 12.6);
+}
+
+.bg-hover-Brown-dark-7:hover {
+  background-color: rgb(49.5, 12.6, 12.6);
+}
+
+.text-hover-Brown-dark-7:hover {
+  color: rgb(49.5, 12.6, 12.6);
+}
+
+.bg-Brown-dark-7 {
+  background-color: rgb(49.5, 12.6, 12.6);
+}
+
+.text-Brown-light-8 {
+  color: rgb(237, 212.4, 212.4);
+}
+
+.bg-Brown-light-8 {
+  background-color: rgb(237, 212.4, 212.4);
+}
+
+.bg-hover-Brown-light-8:hover {
+  background-color: rgb(237, 212.4, 212.4);
+}
+
+.text-hover-Brown-light-8:hover {
+  color: rgb(237, 212.4, 212.4);
+}
+
+.text-Brown-dark-8 {
+  color: rgb(33, 8.4, 8.4);
+}
+
+.bg-hover-Brown-dark-8:hover {
+  background-color: rgb(33, 8.4, 8.4);
+}
+
+.text-hover-Brown-dark-8:hover {
+  color: rgb(33, 8.4, 8.4);
+}
+
+.bg-Brown-dark-8 {
+  background-color: rgb(33, 8.4, 8.4);
+}
+
+.text-Brown-light-9 {
+  color: rgb(246, 233.7, 233.7);
+}
+
+.bg-Brown-light-9 {
+  background-color: rgb(246, 233.7, 233.7);
+}
+
+.bg-hover-Brown-light-9:hover {
+  background-color: rgb(246, 233.7, 233.7);
+}
+
+.text-hover-Brown-light-9:hover {
+  color: rgb(246, 233.7, 233.7);
+}
+
+.text-Brown-dark-9 {
+  color: rgb(16.5, 4.2, 4.2);
+}
+
+.bg-hover-Brown-dark-9:hover {
+  background-color: rgb(16.5, 4.2, 4.2);
+}
+
+.text-hover-Brown-dark-9:hover {
+  color: rgb(16.5, 4.2, 4.2);
+}
+
+.bg-Brown-dark-9 {
+  background-color: rgb(16.5, 4.2, 4.2);
+}
+
+.test {
+  text-align: justify;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.p-xs {
+  padding: 0.1875rem;
+}
+
+.p-sm {
+  padding: 0.375rem;
+}
+
+.p-lg {
+  padding: 1.5rem;
+}
+
+.p-xl {
+  padding: 3rem;
+}
+
+.p-xxl {
+  padding: 4.5rem;
+}
+
+.pl-0 {
+  padding-left: 0;
+}
+
+.pl-xs {
+  padding-left: 0.1875rem;
+}
+
+.pl-sm {
+  padding-left: 0.375rem;
+}
+
+.pl-lg {
+  padding-left: 1.5rem;
+}
+
+.pl-xl {
+  padding-left: 3rem;
+}
+
+.pl-xxl {
+  padding-left: 4.5rem;
+}
+
+.pr-0 {
+  padding-right: 0;
+}
+
+.pr-xs {
+  padding-right: 0.1875rem;
+}
+
+.pr-sm {
+  padding-right: 0.375rem;
+}
+
+.pr-lg {
+  padding-right: 1.5rem;
+}
+
+.pr-xl {
+  padding-right: 3rem;
+}
+
+.pr-xxl {
+  padding-right: 4.5rem;
+}
+
+.pt-0 {
+  padding-top: 0;
+}
+
+.pt-xs {
+  padding-top: 0.1875rem;
+}
+
+.pt-sm {
+  padding-top: 0.375rem;
+}
+
+.pt-lg {
+  padding-top: 1.5rem;
+}
+
+.pt-xl {
+  padding-top: 3rem;
+}
+
+.pt-xxl {
+  padding-top: 4.5rem;
+}
+
+.pb-0 {
+  padding-bottom: 0;
+}
+
+.pb-xs {
+  padding-bottom: 0.1875rem;
+}
+
+.pb-sm {
+  padding-bottom: 0.375rem;
+}
+
+.pb-lg {
+  padding-bottom: 1.5rem;
+}
+
+.pb-xl {
+  padding-bottom: 3rem;
+}
+
+.pb-xxl {
+  padding-bottom: 4.5rem;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.m-xs {
+  margin: 0.44rem;
+}
+
+.m-sm {
+  margin: 0.88rem;
+}
+
+.m-lg {
+  margin: 3.52rem;
+}
+
+.m-xl {
+  margin: 7.04rem;
+}
+
+.m-xxl {
+  margin: 10.56rem;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-xs {
+  margin-top: 0.44rem;
+}
+
+.mt-sm {
+  margin-top: 0.88rem;
+}
+
+.mt-lg {
+  margin-top: 3.52rem;
+}
+
+.mt-xl {
+  margin-top: 7.04rem;
+}
+
+.mt-xxl {
+  margin-top: 10.56rem;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-xs {
+  margin-bottom: 0.44rem;
+}
+
+.mb-sm {
+  margin-bottom: 0.88rem;
+}
+
+.mb-lg {
+  margin-bottom: 3.52rem;
+}
+
+.mb-xl {
+  margin-bottom: 7.04rem;
+}
+
+.mb-xxl {
+  margin-bottom: 10.56rem;
+}
+
+.ml-0 {
+  margin-left: 0;
+}
+
+.ml-xs {
+  margin-left: 0.44rem;
+}
+
+.ml-sm {
+  margin-left: 0.88rem;
+}
+
+.ml-lg {
+  margin-left: 3.52rem;
+}
+
+.ml-xl {
+  margin-left: 7.04rem;
+}
+
+.ml-xxl {
+  margin-left: 10.56rem;
+}
+
+.mr-0 {
+  margin-right: 0;
+}
+
+.mr-xs {
+  margin-right: 0.44rem;
+}
+
+.mr-sm {
+  margin-right: 0.88rem;
+}
+
+.mr-lg {
+  margin-right: 3.52rem;
+}
+
+.mr-xl {
+  margin-right: 7.04rem;
+}
+
+.mr-xxl {
+  margin-right: 10.56rem;
+}
+
+.o-0 {
+  opacity: 0;
+}
+
+.o-10 {
+  opacity: 0.1;
+}
+
+.o-20 {
+  opacity: 0.2;
+}
+
+.o-30 {
+  opacity: 0.3;
+}
+
+.o-40 {
+  opacity: 0.4;
+}
+
+.o-50 {
+  opacity: 0.5;
+}
+
+.o-60 {
+  opacity: 0.6;
+}
+
+.o-80 {
+  opacity: 0.8;
+}
+
+.o-70 {
+  opacity: 0.7;
+}
+
+.o-90 {
+  opacity: 0.9;
+}
+
+.o-100 {
+  opacity: 1;
+}
+
+.d-f {
+  display: flex;
+}
+
+.d-b {
+  display: block;
+}
+
+.d-i-b {
+  display: inline-block;
+}
+
+.d-g {
+  display: grid;
+}
+
+.d-i {
+  display: inline;
+}
+
+.d-ih {
+  display: inherit;
+}
+
+.font-xs {
+  font-size: 0.25rem;
+}
+
+.font-sm {
+  font-size: 0.5rem;
+}
+
+.font-lg {
+  font-size: 2rem;
+}
+
+.font-xl {
+  font-size: 4rem;
+}
+
+.font-xxl {
+  font-size: 6rem;
+}
+
+.cursor-p {
+  cursor: pointer;
+}
+
+.cursor-d {
+  cursor: default;
+}
+
+.cursor-cp {
+  cursor: copy;
+}
+
+.cursor-rz {
+  cursor: resize;
+}
+
+.h-10 {
+  height: 10vh;
+}
+
+.h-20 {
+  height: 20vh;
+}
+
+.h-30 {
+  height: 40vh;
+}
+
+.h-50 {
+  height: 50vh;
+}
+
+.h-40 {
+  height: 40vh;
+}
+
+.h-60 {
+  height: 60vh;
+}
+
+.h-70 {
+  height: 70vh;
+}
+
+.h-90 {
+  height: 90vh;
+}
+
+.h-80 {
+  height: 80vh;
+}
+
+.h-100 {
+  height: 100vh;
+}
+
+.w-10 {
+  width: 10vw;
+}
+
+.w-20 {
+  width: 20vw;
+}
+
+.w-30 {
+  width: 40vw;
+}
+
+.w-50 {
+  width: 50vw;
+}
+
+.w-40 {
+  width: 40vw;
+}
+
+.w-60 {
+  width: 60vw;
+}
+
+.w-70 {
+  width: 70vw;
+}
+
+.w-90 {
+  width: 90vw;
+}
+
+.w-80 {
+  width: 80vw;
+}
+
+.w-100 {
+  width: 100vw;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-end {
+  text-align: end;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-justify {
+  text-align: justify;
+}
+
+.navbar .container, .navbar-Brown .container, .navbar-White .container, .navbar-Black .container, .navbar-Grey .container, .navbar-Pupple .container, .navbar-Orange .container, .navbar-Yellow .container, .navbar-Green .container, .navbar-Blue .container, .navbar-info .container, .navbar-error .container, .navbar-secondary .container, .navbar-primary .container, .navbar, .navbar-Brown, .navbar-White, .navbar-Black, .navbar-Grey, .navbar-Pupple, .navbar-Orange, .navbar-Yellow, .navbar-Green, .navbar-Blue, .navbar-info, .navbar-error, .navbar-secondary, .navbar-primary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navbar, .navbar-Brown, .navbar-White, .navbar-Black, .navbar-Grey, .navbar-Pupple, .navbar-Orange, .navbar-Yellow, .navbar-Green, .navbar-Blue, .navbar-info, .navbar-error, .navbar-secondary, .navbar-primary {
+  padding: 0.75rem 1.5rem;
+}
+.navbar .page-title, .navbar-Brown .page-title, .navbar-White .page-title, .navbar-Black .page-title, .navbar-Grey .page-title, .navbar-Pupple .page-title, .navbar-Orange .page-title, .navbar-Yellow .page-title, .navbar-Green .page-title, .navbar-Blue .page-title, .navbar-info .page-title, .navbar-error .page-title, .navbar-secondary .page-title, .navbar-primary .page-title {
+  font-size: 1.5rem;
+}
+.navbar-primary {
+  background-color: blue;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-secondary {
+  background-color: green;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-error {
+  background-color: red;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-info {
+  background-color: orange;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-Blue {
+  background-color: blue;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-Green {
+  background-color: green;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-Yellow {
+  background-color: yellow;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-Orange {
+  background-color: orange;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-Pupple {
+  background-color: purple;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-Grey {
+  background-color: gray;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-Black {
+  background-color: #000;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-White {
+  background-color: #fff;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-Brown {
+  background-color: brown;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.gap-0 > * {
+  padding: 0;
+}
+
+.gap-1 > * {
+  padding: 10px;
+}
+
+.gap-2 > * {
+  padding: 20px;
+}
+
+.gap-3 > * {
+  padding: 30px;
+}
+
+.content-flex-start {
+  justify-content: flex-start;
+}
+
+.content-flex-end {
+  justify-content: flex-end;
+}
+
+.content-center {
+  justify-content: center;
+}
+
+.content-space-between {
+  justify-content: space-between;
+}
+
+.content-space-around {
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 0) {
+  .col-1-xs {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 8.3333333333%;
+  }
+  .col-2-xs {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 16.6666666667%;
+  }
+  .col-3-xs {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 25%;
+  }
+  .col-4-xs {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 33.3333333333%;
+  }
+  .col-5-xs {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 41.6666666667%;
+  }
+  .col-6-xs {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 50%;
+  }
+  .col-7-xs {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 58.3333333333%;
+  }
+  .col-8-xs {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 66.6666666667%;
+  }
+  .col-9-xs {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 75%;
+  }
+  .col-10-xs {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 83.3333333333%;
+  }
+  .col-11-xs {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 91.6666666667%;
+  }
+  .col-12-xs {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 400px) {
+  .col-1-sm {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 8.3333333333%;
+  }
+  .col-2-sm {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 16.6666666667%;
+  }
+  .col-3-sm {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 25%;
+  }
+  .col-4-sm {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 33.3333333333%;
+  }
+  .col-5-sm {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 41.6666666667%;
+  }
+  .col-6-sm {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 50%;
+  }
+  .col-7-sm {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 58.3333333333%;
+  }
+  .col-8-sm {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 66.6666666667%;
+  }
+  .col-9-sm {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 75%;
+  }
+  .col-10-sm {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 83.3333333333%;
+  }
+  .col-11-sm {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 91.6666666667%;
+  }
+  .col-12-sm {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 700px) {
+  .col-1-md {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 8.3333333333%;
+  }
+  .col-2-md {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 16.6666666667%;
+  }
+  .col-3-md {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 25%;
+  }
+  .col-4-md {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 33.3333333333%;
+  }
+  .col-5-md {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 41.6666666667%;
+  }
+  .col-6-md {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 50%;
+  }
+  .col-7-md {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 58.3333333333%;
+  }
+  .col-8-md {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 66.6666666667%;
+  }
+  .col-9-md {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 75%;
+  }
+  .col-10-md {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 83.3333333333%;
+  }
+  .col-11-md {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 91.6666666667%;
+  }
+  .col-12-md {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .col-1-lg {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 8.3333333333%;
+  }
+  .col-2-lg {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 16.6666666667%;
+  }
+  .col-3-lg {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 25%;
+  }
+  .col-4-lg {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 33.3333333333%;
+  }
+  .col-5-lg {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 41.6666666667%;
+  }
+  .col-6-lg {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 50%;
+  }
+  .col-7-lg {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 58.3333333333%;
+  }
+  .col-8-lg {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 66.6666666667%;
+  }
+  .col-9-lg {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 75%;
+  }
+  .col-10-lg {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 83.3333333333%;
+  }
+  .col-11-lg {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 91.6666666667%;
+  }
+  .col-12-lg {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .col-1-xl {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 8.3333333333%;
+  }
+  .col-2-xl {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 16.6666666667%;
+  }
+  .col-3-xl {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 25%;
+  }
+  .col-4-xl {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 33.3333333333%;
+  }
+  .col-5-xl {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 41.6666666667%;
+  }
+  .col-6-xl {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 50%;
+  }
+  .col-7-xl {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 58.3333333333%;
+  }
+  .col-8-xl {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 66.6666666667%;
+  }
+  .col-9-xl {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 75%;
+  }
+  .col-10-xl {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 83.3333333333%;
+  }
+  .col-11-xl {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 91.6666666667%;
+  }
+  .col-12-xl {
+    flex-grow: 0;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+  }
+}
+.trial {
+  color: purple;
+}
+
+.card {
+  display: block;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  border-radius: 5px;
+}
+.card .card-title {
+  color: blue;
+  font-size: 1.5rem;
+  padding-bottom: 0.75rem;
+  font-weight: bold;
+}
+.card .card-body {
+  font-size: 1rem;
+}
+.card .card-body a {
+  text-decoration: underline;
+}
+
+.form {
+  display: flex;
+  flex-flow: row wrap;
+  width: 50%;
+  margin: 4rem auto;
+  background-color: grey;
+  padding-top: 1.5rem;
+  opacity: 0.6;
+}
+.form .form-title {
+  font-size: 1.5rem;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+input {
+  outline: none;
+  border: white solid 1px;
+  border-radius: 20px;
+}
+input::-moz-placeholder {
+  font-size: 1rem;
+  color: grey;
+  padding: 0.75rem;
+}
+input::placeholder {
+  font-size: 1rem;
+  color: grey;
+  padding: 0.75rem;
+}
+
+.container, .container-Brown-light-9, .container-Brown-light-8, .container-Brown-light-7, .container-Brown-light-6, .container-Brown-light-5, .container-Brown-light-4, .container-Brown-light-3, .container-Brown-light-2, .container-Brown-light-1, .container-Brown-dark-9, .container-Brown-dark-8, .container-Brown-dark-7, .container-Brown-dark-6, .container-Brown-dark-5, .container-Brown-dark-4, .container-Brown-dark-3, .container-Brown-dark-2, .container-Brown-dark-1, .container-Brown, .container-White-light-9, .container-White-light-8, .container-White-light-7, .container-White-light-6, .container-White-light-5, .container-White-light-4, .container-White-light-3, .container-White-light-2, .container-White-light-1, .container-White-dark-9, .container-White-dark-8, .container-White-dark-7, .container-White-dark-6, .container-White-dark-5, .container-White-dark-4, .container-White-dark-3, .container-White-dark-2, .container-White-dark-1, .container-White, .container-Black-light-9, .container-Black-light-8, .container-Black-light-7, .container-Black-light-6, .container-Black-light-5, .container-Black-light-4, .container-Black-light-3, .container-Black-light-2, .container-Black-light-1, .container-Black-dark-9, .container-Black-dark-8, .container-Black-dark-7, .container-Black-dark-6, .container-Black-dark-5, .container-Black-dark-4, .container-Black-dark-3, .container-Black-dark-2, .container-Black-dark-1, .container-Black, .container-Grey-light-9, .container-Grey-light-8, .container-Grey-light-7, .container-Grey-light-6, .container-Grey-light-5, .container-Grey-light-4, .container-Grey-light-3, .container-Grey-light-2, .container-Grey-light-1, .container-Grey-dark-9, .container-Grey-dark-8, .container-Grey-dark-7, .container-Grey-dark-6, .container-Grey-dark-5, .container-Grey-dark-4, .container-Grey-dark-3, .container-Grey-dark-2, .container-Grey-dark-1, .container-Grey, .container-Pupple-light-9, .container-Pupple-light-8, .container-Pupple-light-7, .container-Pupple-light-6, .container-Pupple-light-5, .container-Pupple-light-4, .container-Pupple-light-3, .container-Pupple-light-2, .container-Pupple-light-1, .container-Pupple-dark-9, .container-Pupple-dark-8, .container-Pupple-dark-7, .container-Pupple-dark-6, .container-Pupple-dark-5, .container-Pupple-dark-4, .container-Pupple-dark-3, .container-Pupple-dark-2, .container-Pupple-dark-1, .container-Pupple, .container-Orange-light-9, .container-Orange-light-8, .container-Orange-light-7, .container-Orange-light-6, .container-Orange-light-5, .container-Orange-light-4, .container-Orange-light-3, .container-Orange-light-2, .container-Orange-light-1, .container-Orange-dark-9, .container-Orange-dark-8, .container-Orange-dark-7, .container-Orange-dark-6, .container-Orange-dark-5, .container-Orange-dark-4, .container-Orange-dark-3, .container-Orange-dark-2, .container-Orange-dark-1, .container-Orange, .container-Yellow-light-9, .container-Yellow-light-8, .container-Yellow-light-7, .container-Yellow-light-6, .container-Yellow-light-5, .container-Yellow-light-4, .container-Yellow-light-3, .container-Yellow-light-2, .container-Yellow-light-1, .container-Yellow-dark-9, .container-Yellow-dark-8, .container-Yellow-dark-7, .container-Yellow-dark-6, .container-Yellow-dark-5, .container-Yellow-dark-4, .container-Yellow-dark-3, .container-Yellow-dark-2, .container-Yellow-dark-1, .container-Yellow, .container-Green-light-9, .container-Green-light-8, .container-Green-light-7, .container-Green-light-6, .container-Green-light-5, .container-Green-light-4, .container-Green-light-3, .container-Green-light-2, .container-Green-light-1, .container-Green-dark-9, .container-Green-dark-8, .container-Green-dark-7, .container-Green-dark-6, .container-Green-dark-5, .container-Green-dark-4, .container-Green-dark-3, .container-Green-dark-2, .container-Green-dark-1, .container-Green, .container-Blue-light-9, .container-Blue-light-8, .container-Blue-light-7, .container-Blue-light-6, .container-Blue-light-5, .container-Blue-light-4, .container-Blue-light-3, .container-Blue-light-2, .container-Blue-light-1, .container-Blue-dark-9, .container-Blue-dark-8, .container-Blue-dark-7, .container-Blue-dark-6, .container-Blue-dark-5, .container-Blue-dark-4, .container-Blue-dark-3, .container-Blue-dark-2, .container-Blue-dark-1, .container-Blue, .container-info-light-9, .container-info-light-8, .container-info-light-7, .container-info-light-6, .container-info-light-5, .container-info-light-4, .container-info-light-3, .container-info-light-2, .container-info-light-1, .container-info-dark-9, .container-info-dark-8, .container-info-dark-7, .container-info-dark-6, .container-info-dark-5, .container-info-dark-4, .container-info-dark-3, .container-info-dark-2, .container-info-dark-1, .container-info, .container-error-light-9, .container-error-light-8, .container-error-light-7, .container-error-light-6, .container-error-light-5, .container-error-light-4, .container-error-light-3, .container-error-light-2, .container-error-light-1, .container-error-dark-9, .container-error-dark-8, .container-error-dark-7, .container-error-dark-6, .container-error-dark-5, .container-error-dark-4, .container-error-dark-3, .container-error-dark-2, .container-error-dark-1, .container-error, .container-secondary-light-9, .container-secondary-light-8, .container-secondary-light-7, .container-secondary-light-6, .container-secondary-light-5, .container-secondary-light-4, .container-secondary-light-3, .container-secondary-light-2, .container-secondary-light-1, .container-secondary-dark-9, .container-secondary-dark-8, .container-secondary-dark-7, .container-secondary-dark-6, .container-secondary-dark-5, .container-secondary-dark-4, .container-secondary-dark-3, .container-secondary-dark-2, .container-secondary-dark-1, .container-secondary, .container-primary-light-9, .container-primary-light-8, .container-primary-light-7, .container-primary-light-6, .container-primary-light-5, .container-primary-light-4, .container-primary-light-3, .container-primary-light-2, .container-primary-light-1, .container-primary-dark-9, .container-primary-dark-8, .container-primary-dark-7, .container-primary-dark-6, .container-primary-dark-5, .container-primary-dark-4, .container-primary-dark-3, .container-primary-dark-2, .container-primary-dark-1, .container-primary {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 30px;
+  box-sizing: border-box;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container-primary {
+  background-color: blue;
+}
+
+.container-primary-dark-1 {
+  background-color: rgb(0, 0, 25.5);
+}
+
+.container-primary-dark-2 {
+  background-color: #000033;
+}
+
+.container-primary-dark-3 {
+  background-color: rgb(0, 0, 76.5);
+}
+
+.container-primary-dark-4 {
+  background-color: #000066;
+}
+
+.container-primary-dark-5 {
+  background-color: rgb(0, 0, 127.5);
+}
+
+.container-primary-dark-6 {
+  background-color: #000099;
+}
+
+.container-primary-dark-7 {
+  background-color: rgb(0, 0, 178.5);
+}
+
+.container-primary-dark-8 {
+  background-color: #0000cc;
+}
+
+.container-primary-dark-9 {
+  background-color: rgb(0, 0, 229.5);
+}
+
+.container-primary-light-1 {
+  background-color: rgb(229.5, 229.5, 255);
+}
+
+.container-primary-light-2 {
+  background-color: #ccccff;
+}
+
+.container-primary-light-3 {
+  background-color: rgb(178.5, 178.5, 255);
+}
+
+.container-primary-light-4 {
+  background-color: #9999ff;
+}
+
+.container-primary-light-5 {
+  background-color: rgb(127.5, 127.5, 255);
+}
+
+.container-primary-light-6 {
+  background-color: #6666ff;
+}
+
+.container-primary-light-7 {
+  background-color: rgb(76.5, 76.5, 255);
+}
+
+.container-primary-light-8 {
+  background-color: #3333ff;
+}
+
+.container-primary-light-9 {
+  background-color: rgb(25.5, 25.5, 255);
+}
+
+.container-secondary {
+  background-color: green;
+}
+
+.container-secondary-dark-1 {
+  background-color: rgb(0, 12.8, 0);
+}
+
+.container-secondary-dark-2 {
+  background-color: rgb(0, 25.6, 0);
+}
+
+.container-secondary-dark-3 {
+  background-color: rgb(0, 38.4, 0);
+}
+
+.container-secondary-dark-4 {
+  background-color: rgb(0, 51.2, 0);
+}
+
+.container-secondary-dark-5 {
+  background-color: #004000;
+}
+
+.container-secondary-dark-6 {
+  background-color: rgb(0, 76.8, 0);
+}
+
+.container-secondary-dark-7 {
+  background-color: rgb(0, 89.6, 0);
+}
+
+.container-secondary-dark-8 {
+  background-color: rgb(0, 102.4, 0);
+}
+
+.container-secondary-dark-9 {
+  background-color: rgb(0, 115.2, 0);
+}
+
+.container-secondary-light-1 {
+  background-color: rgb(229.5, 242.3, 229.5);
+}
+
+.container-secondary-light-2 {
+  background-color: rgb(204, 229.6, 204);
+}
+
+.container-secondary-light-3 {
+  background-color: rgb(178.5, 216.9, 178.5);
+}
+
+.container-secondary-light-4 {
+  background-color: rgb(153, 204.2, 153);
+}
+
+.container-secondary-light-5 {
+  background-color: rgb(127.5, 191.5, 127.5);
+}
+
+.container-secondary-light-6 {
+  background-color: rgb(102, 178.8, 102);
+}
+
+.container-secondary-light-7 {
+  background-color: rgb(76.5, 166.1, 76.5);
+}
+
+.container-secondary-light-8 {
+  background-color: rgb(51, 153.4, 51);
+}
+
+.container-secondary-light-9 {
+  background-color: rgb(25.5, 140.7, 25.5);
+}
+
+.container-error {
+  background-color: red;
+}
+
+.container-error-dark-1 {
+  background-color: rgb(25.5, 0, 0);
+}
+
+.container-error-dark-2 {
+  background-color: #330000;
+}
+
+.container-error-dark-3 {
+  background-color: rgb(76.5, 0, 0);
+}
+
+.container-error-dark-4 {
+  background-color: #660000;
+}
+
+.container-error-dark-5 {
+  background-color: rgb(127.5, 0, 0);
+}
+
+.container-error-dark-6 {
+  background-color: #990000;
+}
+
+.container-error-dark-7 {
+  background-color: rgb(178.5, 0, 0);
+}
+
+.container-error-dark-8 {
+  background-color: #cc0000;
+}
+
+.container-error-dark-9 {
+  background-color: rgb(229.5, 0, 0);
+}
+
+.container-error-light-1 {
+  background-color: rgb(255, 229.5, 229.5);
+}
+
+.container-error-light-2 {
+  background-color: #ffcccc;
+}
+
+.container-error-light-3 {
+  background-color: rgb(255, 178.5, 178.5);
+}
+
+.container-error-light-4 {
+  background-color: #ff9999;
+}
+
+.container-error-light-5 {
+  background-color: rgb(255, 127.5, 127.5);
+}
+
+.container-error-light-6 {
+  background-color: #ff6666;
+}
+
+.container-error-light-7 {
+  background-color: rgb(255, 76.5, 76.5);
+}
+
+.container-error-light-8 {
+  background-color: #ff3333;
+}
+
+.container-error-light-9 {
+  background-color: rgb(255, 25.5, 25.5);
+}
+
+.container-info {
+  background-color: orange;
+}
+
+.container-info-dark-1 {
+  background-color: rgb(25.5, 16.5, 0);
+}
+
+.container-info-dark-2 {
+  background-color: #332100;
+}
+
+.container-info-dark-3 {
+  background-color: rgb(76.5, 49.5, 0);
+}
+
+.container-info-dark-4 {
+  background-color: #664200;
+}
+
+.container-info-dark-5 {
+  background-color: rgb(127.5, 82.5, 0);
+}
+
+.container-info-dark-6 {
+  background-color: #996300;
+}
+
+.container-info-dark-7 {
+  background-color: rgb(178.5, 115.5, 0);
+}
+
+.container-info-dark-8 {
+  background-color: #cc8400;
+}
+
+.container-info-dark-9 {
+  background-color: rgb(229.5, 148.5, 0);
+}
+
+.container-info-light-1 {
+  background-color: rgb(255, 246, 229.5);
+}
+
+.container-info-light-2 {
+  background-color: #ffedcc;
+}
+
+.container-info-light-3 {
+  background-color: rgb(255, 228, 178.5);
+}
+
+.container-info-light-4 {
+  background-color: #ffdb99;
+}
+
+.container-info-light-5 {
+  background-color: rgb(255, 210, 127.5);
+}
+
+.container-info-light-6 {
+  background-color: #ffc966;
+}
+
+.container-info-light-7 {
+  background-color: rgb(255, 192, 76.5);
+}
+
+.container-info-light-8 {
+  background-color: #ffb733;
+}
+
+.container-info-light-9 {
+  background-color: rgb(255, 174, 25.5);
+}
+
+.container-Blue {
+  background-color: blue;
+}
+
+.container-Blue-dark-1 {
+  background-color: rgb(0, 0, 25.5);
+}
+
+.container-Blue-dark-2 {
+  background-color: #000033;
+}
+
+.container-Blue-dark-3 {
+  background-color: rgb(0, 0, 76.5);
+}
+
+.container-Blue-dark-4 {
+  background-color: #000066;
+}
+
+.container-Blue-dark-5 {
+  background-color: rgb(0, 0, 127.5);
+}
+
+.container-Blue-dark-6 {
+  background-color: #000099;
+}
+
+.container-Blue-dark-7 {
+  background-color: rgb(0, 0, 178.5);
+}
+
+.container-Blue-dark-8 {
+  background-color: #0000cc;
+}
+
+.container-Blue-dark-9 {
+  background-color: rgb(0, 0, 229.5);
+}
+
+.container-Blue-light-1 {
+  background-color: rgb(229.5, 229.5, 255);
+}
+
+.container-Blue-light-2 {
+  background-color: #ccccff;
+}
+
+.container-Blue-light-3 {
+  background-color: rgb(178.5, 178.5, 255);
+}
+
+.container-Blue-light-4 {
+  background-color: #9999ff;
+}
+
+.container-Blue-light-5 {
+  background-color: rgb(127.5, 127.5, 255);
+}
+
+.container-Blue-light-6 {
+  background-color: #6666ff;
+}
+
+.container-Blue-light-7 {
+  background-color: rgb(76.5, 76.5, 255);
+}
+
+.container-Blue-light-8 {
+  background-color: #3333ff;
+}
+
+.container-Blue-light-9 {
+  background-color: rgb(25.5, 25.5, 255);
+}
+
+.container-Green {
+  background-color: green;
+}
+
+.container-Green-dark-1 {
+  background-color: rgb(0, 12.8, 0);
+}
+
+.container-Green-dark-2 {
+  background-color: rgb(0, 25.6, 0);
+}
+
+.container-Green-dark-3 {
+  background-color: rgb(0, 38.4, 0);
+}
+
+.container-Green-dark-4 {
+  background-color: rgb(0, 51.2, 0);
+}
+
+.container-Green-dark-5 {
+  background-color: #004000;
+}
+
+.container-Green-dark-6 {
+  background-color: rgb(0, 76.8, 0);
+}
+
+.container-Green-dark-7 {
+  background-color: rgb(0, 89.6, 0);
+}
+
+.container-Green-dark-8 {
+  background-color: rgb(0, 102.4, 0);
+}
+
+.container-Green-dark-9 {
+  background-color: rgb(0, 115.2, 0);
+}
+
+.container-Green-light-1 {
+  background-color: rgb(229.5, 242.3, 229.5);
+}
+
+.container-Green-light-2 {
+  background-color: rgb(204, 229.6, 204);
+}
+
+.container-Green-light-3 {
+  background-color: rgb(178.5, 216.9, 178.5);
+}
+
+.container-Green-light-4 {
+  background-color: rgb(153, 204.2, 153);
+}
+
+.container-Green-light-5 {
+  background-color: rgb(127.5, 191.5, 127.5);
+}
+
+.container-Green-light-6 {
+  background-color: rgb(102, 178.8, 102);
+}
+
+.container-Green-light-7 {
+  background-color: rgb(76.5, 166.1, 76.5);
+}
+
+.container-Green-light-8 {
+  background-color: rgb(51, 153.4, 51);
+}
+
+.container-Green-light-9 {
+  background-color: rgb(25.5, 140.7, 25.5);
+}
+
+.container-Yellow {
+  background-color: yellow;
+}
+
+.container-Yellow-dark-1 {
+  background-color: rgb(25.5, 25.5, 0);
+}
+
+.container-Yellow-dark-2 {
+  background-color: #333300;
+}
+
+.container-Yellow-dark-3 {
+  background-color: rgb(76.5, 76.5, 0);
+}
+
+.container-Yellow-dark-4 {
+  background-color: #666600;
+}
+
+.container-Yellow-dark-5 {
+  background-color: rgb(127.5, 127.5, 0);
+}
+
+.container-Yellow-dark-6 {
+  background-color: #999900;
+}
+
+.container-Yellow-dark-7 {
+  background-color: rgb(178.5, 178.5, 0);
+}
+
+.container-Yellow-dark-8 {
+  background-color: #cccc00;
+}
+
+.container-Yellow-dark-9 {
+  background-color: rgb(229.5, 229.5, 0);
+}
+
+.container-Yellow-light-1 {
+  background-color: rgb(255, 255, 229.5);
+}
+
+.container-Yellow-light-2 {
+  background-color: #ffffcc;
+}
+
+.container-Yellow-light-3 {
+  background-color: rgb(255, 255, 178.5);
+}
+
+.container-Yellow-light-4 {
+  background-color: #ffff99;
+}
+
+.container-Yellow-light-5 {
+  background-color: rgb(255, 255, 127.5);
+}
+
+.container-Yellow-light-6 {
+  background-color: #ffff66;
+}
+
+.container-Yellow-light-7 {
+  background-color: rgb(255, 255, 76.5);
+}
+
+.container-Yellow-light-8 {
+  background-color: #ffff33;
+}
+
+.container-Yellow-light-9 {
+  background-color: rgb(255, 255, 25.5);
+}
+
+.container-Orange {
+  background-color: orange;
+}
+
+.container-Orange-dark-1 {
+  background-color: rgb(25.5, 16.5, 0);
+}
+
+.container-Orange-dark-2 {
+  background-color: #332100;
+}
+
+.container-Orange-dark-3 {
+  background-color: rgb(76.5, 49.5, 0);
+}
+
+.container-Orange-dark-4 {
+  background-color: #664200;
+}
+
+.container-Orange-dark-5 {
+  background-color: rgb(127.5, 82.5, 0);
+}
+
+.container-Orange-dark-6 {
+  background-color: #996300;
+}
+
+.container-Orange-dark-7 {
+  background-color: rgb(178.5, 115.5, 0);
+}
+
+.container-Orange-dark-8 {
+  background-color: #cc8400;
+}
+
+.container-Orange-dark-9 {
+  background-color: rgb(229.5, 148.5, 0);
+}
+
+.container-Orange-light-1 {
+  background-color: rgb(255, 246, 229.5);
+}
+
+.container-Orange-light-2 {
+  background-color: #ffedcc;
+}
+
+.container-Orange-light-3 {
+  background-color: rgb(255, 228, 178.5);
+}
+
+.container-Orange-light-4 {
+  background-color: #ffdb99;
+}
+
+.container-Orange-light-5 {
+  background-color: rgb(255, 210, 127.5);
+}
+
+.container-Orange-light-6 {
+  background-color: #ffc966;
+}
+
+.container-Orange-light-7 {
+  background-color: rgb(255, 192, 76.5);
+}
+
+.container-Orange-light-8 {
+  background-color: #ffb733;
+}
+
+.container-Orange-light-9 {
+  background-color: rgb(255, 174, 25.5);
+}
+
+.container-Pupple {
+  background-color: purple;
+}
+
+.container-Pupple-dark-1 {
+  background-color: rgb(12.8, 0, 12.8);
+}
+
+.container-Pupple-dark-2 {
+  background-color: rgb(25.6, 0, 25.6);
+}
+
+.container-Pupple-dark-3 {
+  background-color: rgb(38.4, 0, 38.4);
+}
+
+.container-Pupple-dark-4 {
+  background-color: rgb(51.2, 0, 51.2);
+}
+
+.container-Pupple-dark-5 {
+  background-color: #400040;
+}
+
+.container-Pupple-dark-6 {
+  background-color: rgb(76.8, 0, 76.8);
+}
+
+.container-Pupple-dark-7 {
+  background-color: rgb(89.6, 0, 89.6);
+}
+
+.container-Pupple-dark-8 {
+  background-color: rgb(102.4, 0, 102.4);
+}
+
+.container-Pupple-dark-9 {
+  background-color: rgb(115.2, 0, 115.2);
+}
+
+.container-Pupple-light-1 {
+  background-color: rgb(242.3, 229.5, 242.3);
+}
+
+.container-Pupple-light-2 {
+  background-color: rgb(229.6, 204, 229.6);
+}
+
+.container-Pupple-light-3 {
+  background-color: rgb(216.9, 178.5, 216.9);
+}
+
+.container-Pupple-light-4 {
+  background-color: rgb(204.2, 153, 204.2);
+}
+
+.container-Pupple-light-5 {
+  background-color: rgb(191.5, 127.5, 191.5);
+}
+
+.container-Pupple-light-6 {
+  background-color: rgb(178.8, 102, 178.8);
+}
+
+.container-Pupple-light-7 {
+  background-color: rgb(166.1, 76.5, 166.1);
+}
+
+.container-Pupple-light-8 {
+  background-color: rgb(153.4, 51, 153.4);
+}
+
+.container-Pupple-light-9 {
+  background-color: rgb(140.7, 25.5, 140.7);
+}
+
+.container-Grey {
+  background-color: gray;
+}
+
+.container-Grey-dark-1 {
+  background-color: rgb(12.8, 12.8, 12.8);
+}
+
+.container-Grey-dark-2 {
+  background-color: rgb(25.6, 25.6, 25.6);
+}
+
+.container-Grey-dark-3 {
+  background-color: rgb(38.4, 38.4, 38.4);
+}
+
+.container-Grey-dark-4 {
+  background-color: rgb(51.2, 51.2, 51.2);
+}
+
+.container-Grey-dark-5 {
+  background-color: #404040;
+}
+
+.container-Grey-dark-6 {
+  background-color: rgb(76.8, 76.8, 76.8);
+}
+
+.container-Grey-dark-7 {
+  background-color: rgb(89.6, 89.6, 89.6);
+}
+
+.container-Grey-dark-8 {
+  background-color: rgb(102.4, 102.4, 102.4);
+}
+
+.container-Grey-dark-9 {
+  background-color: rgb(115.2, 115.2, 115.2);
+}
+
+.container-Grey-light-1 {
+  background-color: rgb(242.3, 242.3, 242.3);
+}
+
+.container-Grey-light-2 {
+  background-color: rgb(229.6, 229.6, 229.6);
+}
+
+.container-Grey-light-3 {
+  background-color: rgb(216.9, 216.9, 216.9);
+}
+
+.container-Grey-light-4 {
+  background-color: rgb(204.2, 204.2, 204.2);
+}
+
+.container-Grey-light-5 {
+  background-color: rgb(191.5, 191.5, 191.5);
+}
+
+.container-Grey-light-6 {
+  background-color: rgb(178.8, 178.8, 178.8);
+}
+
+.container-Grey-light-7 {
+  background-color: rgb(166.1, 166.1, 166.1);
+}
+
+.container-Grey-light-8 {
+  background-color: rgb(153.4, 153.4, 153.4);
+}
+
+.container-Grey-light-9 {
+  background-color: rgb(140.7, 140.7, 140.7);
+}
+
+.container-Black {
+  background-color: #000;
+}
+
+.container-Black-dark-1 {
+  background-color: black;
+}
+
+.container-Black-dark-2 {
+  background-color: black;
+}
+
+.container-Black-dark-3 {
+  background-color: black;
+}
+
+.container-Black-dark-4 {
+  background-color: black;
+}
+
+.container-Black-dark-5 {
+  background-color: black;
+}
+
+.container-Black-dark-6 {
+  background-color: black;
+}
+
+.container-Black-dark-7 {
+  background-color: black;
+}
+
+.container-Black-dark-8 {
+  background-color: black;
+}
+
+.container-Black-dark-9 {
+  background-color: black;
+}
+
+.container-Black-light-1 {
+  background-color: rgb(229.5, 229.5, 229.5);
+}
+
+.container-Black-light-2 {
+  background-color: #cccccc;
+}
+
+.container-Black-light-3 {
+  background-color: rgb(178.5, 178.5, 178.5);
+}
+
+.container-Black-light-4 {
+  background-color: #999999;
+}
+
+.container-Black-light-5 {
+  background-color: rgb(127.5, 127.5, 127.5);
+}
+
+.container-Black-light-6 {
+  background-color: #666666;
+}
+
+.container-Black-light-7 {
+  background-color: rgb(76.5, 76.5, 76.5);
+}
+
+.container-Black-light-8 {
+  background-color: #333333;
+}
+
+.container-Black-light-9 {
+  background-color: rgb(25.5, 25.5, 25.5);
+}
+
+.container-White {
+  background-color: #fff;
+}
+
+.container-White-dark-1 {
+  background-color: rgb(25.5, 25.5, 25.5);
+}
+
+.container-White-dark-2 {
+  background-color: #333333;
+}
+
+.container-White-dark-3 {
+  background-color: rgb(76.5, 76.5, 76.5);
+}
+
+.container-White-dark-4 {
+  background-color: #666666;
+}
+
+.container-White-dark-5 {
+  background-color: rgb(127.5, 127.5, 127.5);
+}
+
+.container-White-dark-6 {
+  background-color: #999999;
+}
+
+.container-White-dark-7 {
+  background-color: rgb(178.5, 178.5, 178.5);
+}
+
+.container-White-dark-8 {
+  background-color: #cccccc;
+}
+
+.container-White-dark-9 {
+  background-color: rgb(229.5, 229.5, 229.5);
+}
+
+.container-White-light-1 {
+  background-color: white;
+}
+
+.container-White-light-2 {
+  background-color: white;
+}
+
+.container-White-light-3 {
+  background-color: white;
+}
+
+.container-White-light-4 {
+  background-color: white;
+}
+
+.container-White-light-5 {
+  background-color: white;
+}
+
+.container-White-light-6 {
+  background-color: white;
+}
+
+.container-White-light-7 {
+  background-color: white;
+}
+
+.container-White-light-8 {
+  background-color: white;
+}
+
+.container-White-light-9 {
+  background-color: white;
+}
+
+.container-Brown {
+  background-color: brown;
+}
+
+.container-Brown-dark-1 {
+  background-color: rgb(16.5, 4.2, 4.2);
+}
+
+.container-Brown-dark-2 {
+  background-color: rgb(33, 8.4, 8.4);
+}
+
+.container-Brown-dark-3 {
+  background-color: rgb(49.5, 12.6, 12.6);
+}
+
+.container-Brown-dark-4 {
+  background-color: rgb(66, 16.8, 16.8);
+}
+
+.container-Brown-dark-5 {
+  background-color: rgb(82.5, 21, 21);
+}
+
+.container-Brown-dark-6 {
+  background-color: rgb(99, 25.2, 25.2);
+}
+
+.container-Brown-dark-7 {
+  background-color: rgb(115.5, 29.4, 29.4);
+}
+
+.container-Brown-dark-8 {
+  background-color: rgb(132, 33.6, 33.6);
+}
+
+.container-Brown-dark-9 {
+  background-color: rgb(148.5, 37.8, 37.8);
+}
+
+.container-Brown-light-1 {
+  background-color: rgb(246, 233.7, 233.7);
+}
+
+.container-Brown-light-2 {
+  background-color: rgb(237, 212.4, 212.4);
+}
+
+.container-Brown-light-3 {
+  background-color: rgb(228, 191.1, 191.1);
+}
+
+.container-Brown-light-4 {
+  background-color: rgb(219, 169.8, 169.8);
+}
+
+.container-Brown-light-5 {
+  background-color: rgb(210, 148.5, 148.5);
+}
+
+.container-Brown-light-6 {
+  background-color: rgb(201, 127.2, 127.2);
+}
+
+.container-Brown-light-7 {
+  background-color: rgb(192, 105.9, 105.9);
+}
+
+.container-Brown-light-8 {
+  background-color: rgb(183, 84.6, 84.6);
+}
+
+.container-Brown-light-9 {
+  background-color: rgb(174, 63.3, 63.3);
+}
+
+.btn-primary {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: blue;
+}
+.btn-primary:hover {
+  background-color: rgb(76.5, 76.5, 255);
+}
+
+.btn-outlined-primary {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid blue;
+}
+.btn-outlined-primary:hover {
+  background-color: blue;
+}
+
+.btn-comp-primary {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: blue;
+  color: comp(blue);
+}
+.btn-comp-primary:hover {
+  background-color: comp(blue);
+  color: blue;
+}
+
+.btn-secondary {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: green;
+}
+.btn-secondary:hover {
+  background-color: rgb(0, 242.6, 0);
+}
+
+.btn-outlined-secondary {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid green;
+}
+.btn-outlined-secondary:hover {
+  background-color: green;
+}
+
+.btn-comp-secondary {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: green;
+  color: comp(green);
+}
+.btn-comp-secondary:hover {
+  background-color: comp(green);
+  color: green;
+}
+
+.btn-error {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: red;
+}
+.btn-error:hover {
+  background-color: rgb(255, 76.5, 76.5);
+}
+
+.btn-outlined-error {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid red;
+}
+.btn-outlined-error:hover {
+  background-color: red;
+}
+
+.btn-comp-error {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: red;
+  color: comp(red);
+}
+.btn-comp-error:hover {
+  background-color: comp(red);
+  color: red;
+}
+
+.btn-info {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: orange;
+}
+.btn-info:hover {
+  background-color: rgb(255, 192, 76.5);
+}
+
+.btn-outlined-info {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid orange;
+}
+.btn-outlined-info:hover {
+  background-color: orange;
+}
+
+.btn-comp-info {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: orange;
+  color: comp(orange);
+}
+.btn-comp-info:hover {
+  background-color: comp(orange);
+  color: orange;
+}
+
+.btn-Blue {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: blue;
+}
+.btn-Blue:hover {
+  background-color: rgb(76.5, 76.5, 255);
+}
+
+.btn-outlined-Blue {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid blue;
+}
+.btn-outlined-Blue:hover {
+  background-color: blue;
+}
+
+.btn-comp-Blue {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: blue;
+  color: comp(blue);
+}
+.btn-comp-Blue:hover {
+  background-color: comp(blue);
+  color: blue;
+}
+
+.btn-Green {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: green;
+}
+.btn-Green:hover {
+  background-color: rgb(0, 242.6, 0);
+}
+
+.btn-outlined-Green {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid green;
+}
+.btn-outlined-Green:hover {
+  background-color: green;
+}
+
+.btn-comp-Green {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: green;
+  color: comp(green);
+}
+.btn-comp-Green:hover {
+  background-color: comp(green);
+  color: green;
+}
+
+.btn-Yellow {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: yellow;
+}
+.btn-Yellow:hover {
+  background-color: rgb(255, 255, 76.5);
+}
+
+.btn-outlined-Yellow {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid yellow;
+}
+.btn-outlined-Yellow:hover {
+  background-color: yellow;
+}
+
+.btn-comp-Yellow {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: yellow;
+  color: comp(yellow);
+}
+.btn-comp-Yellow:hover {
+  background-color: comp(yellow);
+  color: yellow;
+}
+
+.btn-Orange {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: orange;
+}
+.btn-Orange:hover {
+  background-color: rgb(255, 192, 76.5);
+}
+
+.btn-outlined-Orange {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid orange;
+}
+.btn-outlined-Orange:hover {
+  background-color: orange;
+}
+
+.btn-comp-Orange {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: orange;
+  color: comp(orange);
+}
+.btn-comp-Orange:hover {
+  background-color: comp(orange);
+  color: orange;
+}
+
+.btn-Pupple {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: purple;
+}
+.btn-Pupple:hover {
+  background-color: rgb(242.6, 0, 242.6);
+}
+
+.btn-outlined-Pupple {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid purple;
+}
+.btn-outlined-Pupple:hover {
+  background-color: purple;
+}
+
+.btn-comp-Pupple {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: purple;
+  color: comp(purple);
+}
+.btn-comp-Pupple:hover {
+  background-color: comp(purple);
+  color: purple;
+}
+
+.btn-Grey {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: gray;
+}
+.btn-Grey:hover {
+  background-color: rgb(166.1, 166.1, 166.1);
+}
+
+.btn-outlined-Grey {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid gray;
+}
+.btn-outlined-Grey:hover {
+  background-color: gray;
+}
+
+.btn-comp-Grey {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: gray;
+  color: comp(gray);
+}
+.btn-comp-Grey:hover {
+  background-color: comp(gray);
+  color: gray;
+}
+
+.btn-Black {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: #000;
+}
+.btn-Black:hover {
+  background-color: rgb(76.5, 76.5, 76.5);
+}
+
+.btn-outlined-Black {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid #000;
+}
+.btn-outlined-Black:hover {
+  background-color: #000;
+}
+
+.btn-comp-Black {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: #000;
+  color: comp(#000);
+}
+.btn-comp-Black:hover {
+  background-color: comp(#000);
+  color: #000;
+}
+
+.btn-White {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.btn-White:hover {
+  background-color: white;
+}
+
+.btn-outlined-White {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid #fff;
+}
+.btn-outlined-White:hover {
+  background-color: #fff;
+}
+
+.btn-comp-White {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: #fff;
+  color: comp(#fff);
+}
+.btn-comp-White:hover {
+  background-color: comp(#fff);
+  color: #fff;
+}
+
+.btn-Brown {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: brown;
+}
+.btn-Brown:hover {
+  background-color: rgb(211.9652173913, 85.9347826087, 85.9347826087);
+}
+
+.btn-outlined-Brown {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid brown;
+}
+.btn-outlined-Brown:hover {
+  background-color: brown;
+}
+
+.btn-comp-Brown {
+  padding: 0.75rem 1.5rem;
+  margin: 1.76rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  border-radius: 20px;
+  background-color: brown;
+  color: comp(brown);
+}
+.btn-comp-Brown:hover {
+  background-color: comp(brown);
+  color: brown;
+}/*# sourceMappingURL=index.css.map */

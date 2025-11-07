@@ -1,0 +1,25 @@
+@use "variables";
+%extended {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.navbar {
+  @extend %extended;
+  padding: variables.$base-padding variables.$base-padding * 2;
+
+  .page-title {
+    font-size: variables.$font-size-lg;
+  }
+  .container {
+    @extend %extended;
+  }
+}
+@each $key, $val in variables.$colors {
+  .navbar-#{$key} {
+    @extend .navbar;
+    background-color: $val;
+    box-shadow: variables.$base-box-shadow;
+  }
+}

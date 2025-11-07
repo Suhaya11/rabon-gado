@@ -1,0 +1,43 @@
+@use "variables";
+@use "grid";
+@use "sass:color";
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 30px;
+  box-sizing: border-box;
+  box-shadow: variables.$base-box-shadow;
+}
+@each $key, $val in variables.$colors {
+  .container-#{$key} {
+    @extend .container;
+
+    background-color: $val;
+  }
+  //dark variations
+  @if ($key != black) {
+    @for $i from 1 through 9 {
+      .container-#{$key}-dark-#{$i} {
+        @extend .container;
+        background-color: color.mix(
+          $color2: #000000,
+          $color1: $val,
+          $weight: $i * 10%
+        );
+      }
+    }
+  }
+  @if ($key != white) {
+    @for $i from 1 through 9 {
+      .container-#{$key}-light-#{$i} {
+        @extend .container;
+        background-color: color.mix(
+          $color2: white,
+          $color1: $val,
+          $weight: $i * 10%
+        );
+      }
+    }
+  }
+}

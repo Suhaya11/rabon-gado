@@ -1,0 +1,35 @@
+@use "variables";
+@use "colors";
+
+// create normal form with white background
+.form {
+  display: flex;
+  flex-flow: row wrap;
+
+  width: 50%;
+  margin: 4rem auto;
+  background-color: grey;
+  padding-top: variables.$base-padding * 2;
+  opacity: 0.6;
+
+  #{&}-title {
+    font-size: variables.$font-size-lg;
+    color: white;
+    width: 100%;
+    text-align: center;
+  }
+}
+input {
+  outline: none;
+  border: white solid variables.$base-border-thickness;
+  border-radius: variables.$base-border-radius;
+
+  &::placeholder {
+    font-size: variables.$base-font-size;
+    color: grey;
+    padding: variables.$base-padding;
+  }
+}
+//create form with color variations
+@each $key, $val in variables.$colors {
+}
