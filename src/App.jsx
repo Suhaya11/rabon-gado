@@ -1,4 +1,4 @@
-import Form from "./components/form";
+import { Form } from "./components/form";
 import Navbar from "./components/navBar";
 import "./css/index.css";
 

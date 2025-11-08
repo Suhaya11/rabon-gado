@@ -1,5 +1,6 @@
 @use "variables";
 @use "colors";
+@use "sass:math";
 
 // create normal form with white background
 .form {
@@ -23,6 +24,7 @@ input {
   outline: none;
   border: white solid variables.$base-border-thickness;
   border-radius: variables.$base-border-radius;
+  padding: math.div(variables.$base-padding, 2);
 
   &::placeholder {
     font-size: variables.$base-font-size;
@@ -32,4 +34,11 @@ input {
 }
 //create form with color variations
 @each $key, $val in variables.$colors {
+}
+
+.flex-flow-row-wrap {
+  flex-flow: row wrap;
+}
+.zurriyya {
+  width: 100%;
 }

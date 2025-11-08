@@ -3398,6 +3398,10 @@ a {
   padding: 0;
 }
 
+.p-a {
+  padding: auto;
+}
+
 .p-xs {
   padding: 0.1875rem;
 }
@@ -3416,6 +3420,10 @@ a {
 
 .p-xxl {
   padding: 4.5rem;
+}
+
+.pl-a {
+  padding-left: auto;
 }
 
 .pl-0 {
@@ -3442,6 +3450,10 @@ a {
   padding-left: 4.5rem;
 }
 
+.pr-a {
+  padding-right: auto;
+}
+
 .pr-0 {
   padding-right: 0;
 }
@@ -3464,6 +3476,10 @@ a {
 
 .pr-xxl {
   padding-right: 4.5rem;
+}
+
+.pt-a {
+  padding-top: auto;
 }
 
 .pt-0 {
@@ -3490,6 +3506,10 @@ a {
   padding-top: 4.5rem;
 }
 
+.pb-a {
+  padding-bottom: auto;
+}
+
 .pb-0 {
   padding-bottom: 0;
 }
@@ -3512,6 +3532,10 @@ a {
 
 .pb-xxl {
   padding-bottom: 4.5rem;
+}
+
+.m-a {
+  margin: auto;
 }
 
 .m-0 {
@@ -3538,6 +3562,10 @@ a {
   margin: 10.56rem;
 }
 
+.mt-a {
+  margin-top: auto;
+}
+
 .mt-0 {
   margin-top: 0;
 }
@@ -3560,6 +3588,10 @@ a {
 
 .mt-xxl {
   margin-top: 10.56rem;
+}
+
+.mb-a {
+  margin-bottom: auto;
 }
 
 .mb-0 {
@@ -3586,6 +3618,10 @@ a {
   margin-bottom: 10.56rem;
 }
 
+.ml-a {
+  margin-left: auto;
+}
+
 .ml-0 {
   margin-left: 0;
 }
@@ -3608,6 +3644,10 @@ a {
 
 .ml-xxl {
   margin-left: 10.56rem;
+}
+
+.mr-a {
+  margin-right: auto;
 }
 
 .mr-0 {
@@ -3636,6 +3676,10 @@ a {
 
 .o-0 {
   opacity: 0;
+}
+
+.o-a {
+  opacity: auto;
 }
 
 .o-10 {
@@ -4372,6 +4416,7 @@ input {
   outline: none;
   border: white solid 1px;
   border-radius: 20px;
+  padding: 0.375rem;
 }
 input::-moz-placeholder {
   font-size: 1rem;
@@ -4382,6 +4427,14 @@ input::placeholder {
   font-size: 1rem;
   color: grey;
   padding: 0.75rem;
+}
+
+.flex-flow-row-wrap {
+  flex-flow: row wrap;
+}
+
+.zurriyya {
+  width: 100%;
 }
 
 .container, .container-Brown-light-9, .container-Brown-light-8, .container-Brown-light-7, .container-Brown-light-6, .container-Brown-light-5, .container-Brown-light-4, .container-Brown-light-3, .container-Brown-light-2, .container-Brown-light-1, .container-Brown-dark-9, .container-Brown-dark-8, .container-Brown-dark-7, .container-Brown-dark-6, .container-Brown-dark-5, .container-Brown-dark-4, .container-Brown-dark-3, .container-Brown-dark-2, .container-Brown-dark-1, .container-Brown, .container-White-light-9, .container-White-light-8, .container-White-light-7, .container-White-light-6, .container-White-light-5, .container-White-light-4, .container-White-light-3, .container-White-light-2, .container-White-light-1, .container-White-dark-9, .container-White-dark-8, .container-White-dark-7, .container-White-dark-6, .container-White-dark-5, .container-White-dark-4, .container-White-dark-3, .container-White-dark-2, .container-White-dark-1, .container-White, .container-Black-light-9, .container-Black-light-8, .container-Black-light-7, .container-Black-light-6, .container-Black-light-5, .container-Black-light-4, .container-Black-light-3, .container-Black-light-2, .container-Black-light-1, .container-Black-dark-9, .container-Black-dark-8, .container-Black-dark-7, .container-Black-dark-6, .container-Black-dark-5, .container-Black-dark-4, .container-Black-dark-3, .container-Black-dark-2, .container-Black-dark-1, .container-Black, .container-Grey-light-9, .container-Grey-light-8, .container-Grey-light-7, .container-Grey-light-6, .container-Grey-light-5, .container-Grey-light-4, .container-Grey-light-3, .container-Grey-light-2, .container-Grey-light-1, .container-Grey-dark-9, .container-Grey-dark-8, .container-Grey-dark-7, .container-Grey-dark-6, .container-Grey-dark-5, .container-Grey-dark-4, .container-Grey-dark-3, .container-Grey-dark-2, .container-Grey-dark-1, .container-Grey, .container-Pupple-light-9, .container-Pupple-light-8, .container-Pupple-light-7, .container-Pupple-light-6, .container-Pupple-light-5, .container-Pupple-light-4, .container-Pupple-light-3, .container-Pupple-light-2, .container-Pupple-light-1, .container-Pupple-dark-9, .container-Pupple-dark-8, .container-Pupple-dark-7, .container-Pupple-dark-6, .container-Pupple-dark-5, .container-Pupple-dark-4, .container-Pupple-dark-3, .container-Pupple-dark-2, .container-Pupple-dark-1, .container-Pupple, .container-Orange-light-9, .container-Orange-light-8, .container-Orange-light-7, .container-Orange-light-6, .container-Orange-light-5, .container-Orange-light-4, .container-Orange-light-3, .container-Orange-light-2, .container-Orange-light-1, .container-Orange-dark-9, .container-Orange-dark-8, .container-Orange-dark-7, .container-Orange-dark-6, .container-Orange-dark-5, .container-Orange-dark-4, .container-Orange-dark-3, .container-Orange-dark-2, .container-Orange-dark-1, .container-Orange, .container-Yellow-light-9, .container-Yellow-light-8, .container-Yellow-light-7, .container-Yellow-light-6, .container-Yellow-light-5, .container-Yellow-light-4, .container-Yellow-light-3, .container-Yellow-light-2, .container-Yellow-light-1, .container-Yellow-dark-9, .container-Yellow-dark-8, .container-Yellow-dark-7, .container-Yellow-dark-6, .container-Yellow-dark-5, .container-Yellow-dark-4, .container-Yellow-dark-3, .container-Yellow-dark-2, .container-Yellow-dark-1, .container-Yellow, .container-Green-light-9, .container-Green-light-8, .container-Green-light-7, .container-Green-light-6, .container-Green-light-5, .container-Green-light-4, .container-Green-light-3, .container-Green-light-2, .container-Green-light-1, .container-Green-dark-9, .container-Green-dark-8, .container-Green-dark-7, .container-Green-dark-6, .container-Green-dark-5, .container-Green-dark-4, .container-Green-dark-3, .container-Green-dark-2, .container-Green-dark-1, .container-Green, .container-Blue-light-9, .container-Blue-light-8, .container-Blue-light-7, .container-Blue-light-6, .container-Blue-light-5, .container-Blue-light-4, .container-Blue-light-3, .container-Blue-light-2, .container-Blue-light-1, .container-Blue-dark-9, .container-Blue-dark-8, .container-Blue-dark-7, .container-Blue-dark-6, .container-Blue-dark-5, .container-Blue-dark-4, .container-Blue-dark-3, .container-Blue-dark-2, .container-Blue-dark-1, .container-Blue, .container-info-light-9, .container-info-light-8, .container-info-light-7, .container-info-light-6, .container-info-light-5, .container-info-light-4, .container-info-light-3, .container-info-light-2, .container-info-light-1, .container-info-dark-9, .container-info-dark-8, .container-info-dark-7, .container-info-dark-6, .container-info-dark-5, .container-info-dark-4, .container-info-dark-3, .container-info-dark-2, .container-info-dark-1, .container-info, .container-error-light-9, .container-error-light-8, .container-error-light-7, .container-error-light-6, .container-error-light-5, .container-error-light-4, .container-error-light-3, .container-error-light-2, .container-error-light-1, .container-error-dark-9, .container-error-dark-8, .container-error-dark-7, .container-error-dark-6, .container-error-dark-5, .container-error-dark-4, .container-error-dark-3, .container-error-dark-2, .container-error-dark-1, .container-error, .container-secondary-light-9, .container-secondary-light-8, .container-secondary-light-7, .container-secondary-light-6, .container-secondary-light-5, .container-secondary-light-4, .container-secondary-light-3, .container-secondary-light-2, .container-secondary-light-1, .container-secondary-dark-9, .container-secondary-dark-8, .container-secondary-dark-7, .container-secondary-dark-6, .container-secondary-dark-5, .container-secondary-dark-4, .container-secondary-dark-3, .container-secondary-dark-2, .container-secondary-dark-1, .container-secondary, .container-primary-light-9, .container-primary-light-8, .container-primary-light-7, .container-primary-light-6, .container-primary-light-5, .container-primary-light-4, .container-primary-light-3, .container-primary-light-2, .container-primary-light-1, .container-primary-dark-9, .container-primary-dark-8, .container-primary-dark-7, .container-primary-dark-6, .container-primary-dark-5, .container-primary-dark-4, .container-primary-dark-3, .container-primary-dark-2, .container-primary-dark-1, .container-primary {
