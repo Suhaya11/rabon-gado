@@ -20,6 +20,14 @@
     text-align: center;
   }
 }
+.yanuwa,
+.Yayanyanuwa {
+  div {
+    input {
+      margin-top: variables.$base-margin;
+    }
+  }
+}
 input {
   outline: none;
   border: white solid variables.$base-border-thickness;

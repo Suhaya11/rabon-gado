@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="container-Blue-light-7 mt-xl  content-center d-f">
+      <div className="container-Cornflowerblue-dark-8 mt-xl text-White content-center d-f">
         <Form />
       </div>
     </>
